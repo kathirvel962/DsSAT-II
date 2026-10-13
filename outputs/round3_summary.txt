@@ -1,0 +1,60 @@
+================================================================================
+ROUND 3: INTELLIGENCE LAYER, VISUALIZATION & PROTOTYPE SUMMARY REPORT
+USE CASE 05: EMPLOYEE ATTRITION INSIGHT
+================================================================================
+
+1. EXECUTIVE OVERVIEW
+--------------------------------------------------------------------------------
+Round 3 operationalizes the data engineering (Round 1) and predictive modeling (Round 2) into a complete, human-centric intelligence layer and decision-support prototype. It synthesizes findings into actionable visualizations, concrete insights, an interactive prototype dashboard, and strategic HR recommendations.
+
+2. VISUALIZATION SYSTEM
+--------------------------------------------------------------------------------
+The visualization layer combines static publication-grade charts with a real-time interactive web dashboard:
+- outputs/charts/department_attrition_rate.png: Department-wise attrition rate bar chart.
+- outputs/charts/role_attrition_rate.png: Full 22-role attrition rate bar chart.
+- outputs/charts/tenure_comparison_by_exit_status.png: Tenure distribution and boxplots (median 3.2y vs 4.1y).
+- outputs/charts/overtime_comparison_by_exit_status.png: Overtime distribution and core violin plots (mean 12.15h vs 8.40h).
+- outputs/charts/engagement_comparison_by_exit_status.png: Engagement score density curves and boxplots.
+- outputs/charts/promotion_history_vs_exit_status.png: Promotion status vs exit status bar chart.
+- outputs/charts/correlation_heatmap.png: Full correlation matrix of numerical features with attrition.
+- outputs/charts/round2_confusion_matrix.png: Random Forest confusion matrix heatmap on the test set.
+- outputs/charts/round2_feature_importance.png: Top 10 feature importance horizontal bar chart.
+- outputs/charts/round2_roc_curve.png: ROC curve demonstrating an AUC of 0.729.
+
+3. KEY EVIDENCE-BASED INSIGHTS
+--------------------------------------------------------------------------------
+1. Promotion Stagnation Drives Voluntary Turnover:
+   - Employees who were not promoted in the last 2 years experienced an attrition rate of 16.34% (99 exits out of 606).
+   - Promoted employees experienced an attrition rate of only 7.80% (28 exits out of 359).
+   - Unpromoted employees have more than DOUBLE the turnover rate (2.1x).
+   - Statistical Significance: Chi-Square = 13.64, p = 0.00022, df = 1.
+   - Machine Learning Confirmation: Promotion status ranks among the top categorical predictors in the Random Forest model.
+
+2. Overwork and Career Lifecycle Inflection Point:
+   - Departing employees worked 44.6% more monthly overtime (Mean = 12.15h vs 8.40h for stayers, p = 0.0101; Median = 9.70h vs 8.00h, Mann-Whitney U = 69,106, p = 0.00022).
+   - Attrition peaks sharply between years 2 and 4 ("the 3-year itch"), with leavers exhibiting significantly lower tenure (Mean = 3.48y vs 4.71y, p = 7.65e-09; Median = 3.20y vs 4.10y).
+   - Departures are concentrated in frontline customer and quota-driven units: Customer Support (19.35%) and Sales (16.67%), compared to Finance (5.69%).
+
+4. INTELLIGENCE LAYER & PROTOTYPE DASHBOARD
+--------------------------------------------------------------------------------
+Locations: dashboard/index.html and outputs/dashboard/index.html
+The interactive prototype provides:
+1. Executive KPI Cards: Real-time workforce metrics (1,000 employees, 13.3% attrition, 79 critical-risk individuals, 8.9h avg overtime, 3.40 avg engagement).
+2. Departmental Benchmarking: Visual comparison between historical attrition rates and model-predicted risk scores.
+3. Interactive Flight-Risk Simulator: A "What-If" prediction engine allowing HR analysts to adjust employee variables (tenure, overtime, engagement score, promotion status, department) and receive real-time flight-risk probabilities, risk tier classification (Low / Moderate / Critical), and customized prescriptive retention recommendations.
+4. Comprehensive Employee Roster: Searchable and filterable data table covering all 1,000 employees with individual flight risk probabilities.
+
+5. STRATEGIC HR RECOMMENDATIONS
+--------------------------------------------------------------------------------
+1. Workload Governance in High-Overtime Units:
+   - Establish monthly overtime ceilings (e.g. 15 hours) and burnout alert notifications in Customer Support and Sales.
+   - Address systemic understaffing rather than relying on chronic employee overtime.
+
+2. Mid-Tenure Promotion Reviews:
+   - Introduce structured career development milestones at 2.5 to 3.5 years of tenure to counteract the "3-year itch".
+   - Transparent progression tracks can reduce flight risk by over 50% according to observed data.
+
+3. Early-Warning Pulse Interventions:
+   - Integrate pulse survey scores (< 3.0) and predictive flight-risk scores (> 60%) into managerial retention alerts.
+   - Conduct structured "stay-interviews" with identified at-risk employees before formal resignations occur.
+================================================================================

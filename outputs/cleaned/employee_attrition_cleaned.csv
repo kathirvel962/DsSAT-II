@@ -1,0 +1,1001 @@
+employee_id,department,role,tenure_years,grade,age,absence_days,overtime_hours_monthly,leave_days_taken,salary_band,increment_pct,benefits_score,engagement_score,survey_participation,promoted_last_2_years,transferred_last_2_years,exit_status,promotion_status,attrition,is_overtime_outlier
+E0001,Sales,Sales Manager,4.1,G2,39,5,13.3,12.7,B2,9.0,3.2,3.0,0.75,0.0,0,Stayed,Not Promoted,0,False
+E0002,Engineering,Team Lead,7.1,G4,32,6,19.8,12.8,B2,10.6,3.4,3.6,0.52,1.0,0,Stayed,Promoted,0,False
+E0003,Operations,Operations Manager,5.8,G1,30,2,4.0,18.4,B3,14.8,2.8,1.9,0.61,1.0,0,Stayed,Promoted,0,False
+E0004,Engineering,QA Engineer,7.9,G4,46,3,0.1,13.8,B4,10.1,4.5,2.4,0.2,1.0,0,Stayed,Promoted,0,False
+E0005,Customer Support,Support Specialist,5.3,G2,35,1,0.0,18.0,B3,4.8,3.6,3.1,0.76,0.0,0,Stayed,Not Promoted,0,False
+E0006,Sales,Sales Executive,2.8,G2,35,5,13.0,14.8,B1,2.5,3.9,3.0,0.82,1.0,0,Stayed,Promoted,0,False
+E0007,Sales,Account Manager,13.1,G3,42,7,4.0,18.2,B2,6.8,3.3,1.4,0.52,0.0,0,Stayed,Not Promoted,0,False
+E0008,Engineering,Data Analyst,8.7,G4,40,6,7.2,12.1,B5,0.0,3.5,2.9,0.42,,0,Stayed,Unknown,0,False
+E0009,Engineering,QA Engineer,3.6,G2,31,5,12.1,6.7,B3,5.3,3.9,3.5,0.19,0.0,0,Stayed,Not Promoted,0,False
+E0010,HR,Recruiter,1.3,G4,35,6,14.4,13.7,B3,7.6,3.6,3.6,0.41,0.0,0,Left,Not Promoted,1,False
+E0011,Engineering,Team Lead,1.4,G2,24,5,7.4,20.9,B1,12.2,3.5,2.7,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0012,Engineering,Team Lead,11.3,G2,33,5,20.4,2.1,B3,5.5,3.7,2.4,0.65,1.0,1,Stayed,Promoted,0,False
+E0013,Customer Support,Support Specialist,4.5,G4,38,3,2.1,14.1,B4,5.9,5.0,3.1,0.68,0.0,1,Stayed,Not Promoted,0,False
+E0014,Engineering,Team Lead,7.3,G1,32,3,1.5,14.4,B1,3.3,4.0,2.8,0.53,1.0,0,Stayed,Promoted,0,False
+E0015,Operations,Operations Associate,7.8,G1,34,3,10.5,9.2,B1,4.8,3.8,2.9,0.44,0.0,1,Stayed,Not Promoted,0,False
+E0016,Customer Support,Support Lead,4.7,G4,31,4,6.3,4.1,B4,8.1,4.0,2.1,0.7,0.0,0,Left,Not Promoted,1,False
+E0017,Sales,Sales Executive,2.7,G4,40,2,3.4,13.6,B4,3.5,3.3,2.6,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0018,Sales,Sales Manager,6.2,G5,34,4,9.6,21.9,B3,9.3,3.6,2.3,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0019,Operations,Operations Manager,4.2,G5,29,3,16.3,12.9,B1,7.0,4.4,4.7,0.79,,0,Stayed,Unknown,0,False
+E0020,Marketing,Marketing Executive,2.5,G2,25,4,4.8,7.7,B4,8.6,4.4,3.3,0.32,0.0,0,Stayed,Not Promoted,0,False
+E0021,Engineering,QA Engineer,3.1,G2,41,6,0.0,17.3,B4,5.1,3.1,2.8,0.35,1.0,0,Stayed,Promoted,0,False
+E0022,Customer Support,Support Agent,0.2,G2,21,6,2.5,9.3,B5,3.6,4.0,3.7,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0023,Sales,Sales Executive,1.3,G2,25,3,0.6,6.1,B3,9.3,4.9,3.5,0.61,0.0,0,Left,Not Promoted,1,False
+E0024,Finance,Finance Manager,7.6,G2,34,4,3.8,9.5,B5,2.5,2.6,4.5,0.63,1.0,0,Stayed,Promoted,0,False
+E0025,Sales,Sales Executive,2.8,G2,31,6,12.8,8.1,B1,8.5,4.5,3.0,0.73,0.0,0,Stayed,Not Promoted,0,False
+E0026,Finance,Finance Manager,7.6,G2,41,2,8.1,11.3,B3,10.3,4.5,3.0,0.75,0.0,0,Stayed,Not Promoted,0,False
+E0027,Finance,Finance Manager,11.5,G2,37,3,10.6,13.3,B2,6.1,3.0,4.8,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0028,Sales,Sales Executive,1.5,G5,32,1,3.3,5.1,B2,9.9,3.2,4.5,0.45,0.0,0,Stayed,Not Promoted,0,False
+E0029,HR,HR Manager,5.4,G4,36,2,11.4,13.4,B1,6.3,2.9,4.2,0.58,1.0,1,Stayed,Promoted,0,False
+E0030,Finance,Accountant,1.3,G5,22,5,2.4,16.5,B2,5.4,4.0,2.9,0.88,0.0,0,Left,Not Promoted,1,False
+E0031,Marketing,Content Specialist,2.4,G5,28,5,4.1,17.4,B1,5.7,3.9,3.6,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0032,Operations,Operations Associate,10.7,G2,34,2,13.6,17.3,B1,2.8,4.9,3.8,0.38,1.0,0,Stayed,Promoted,0,False
+E0033,Engineering,Data Analyst,2.1,G3,31,5,0.0,18.8,B3,9.9,2.7,5.0,0.79,0.0,0,Stayed,Not Promoted,0,False
+E0034,HR,HR Manager,6.7,G2,34,6,6.1,15.9,B3,7.2,2.6,3.5,0.42,0.0,0,Stayed,Not Promoted,0,False
+E0035,Finance,Finance Manager,10.7,G1,44,1,14.8,14.9,B2,8.4,3.2,3.9,0.4,1.0,0,Stayed,Promoted,0,False
+E0036,Engineering,Software Engineer,6.4,G1,42,5,5.0,8.3,B2,9.9,3.1,3.3,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0037,Operations,Operations Manager,3.4,G4,28,1,3.2,6.2,B4,3.1,3.1,1.8,0.6,0.0,0,Stayed,Not Promoted,0,False
+E0038,Marketing,Content Specialist,1.6,G2,33,2,1.8,16.7,B1,8.3,3.5,4.5,0.69,0.0,1,Stayed,Not Promoted,0,False
+E0039,Finance,Financial Analyst,4.5,G3,37,4,9.5,19.0,B5,4.6,3.2,3.2,0.72,1.0,1,Stayed,Promoted,0,False
+E0040,Operations,Operations Manager,6.2,G1,28,2,7.9,9.9,B2,9.5,2.7,4.2,0.75,0.0,1,Stayed,Not Promoted,0,False
+E0041,HR,HR Executive,9.1,G1,37,2,7.5,23.3,B1,8.2,3.5,3.1,0.67,1.0,0,Stayed,Promoted,0,False
+E0042,Sales,Sales Executive,5.0,G4,35,0,5.4,10.2,B4,2.9,3.5,4.0,0.45,1.0,1,Stayed,Promoted,0,False
+E0043,Engineering,Data Analyst,1.1,G3,23,5,15.7,16.0,B3,4.2,4.4,2.4,0.61,0.0,1,Stayed,Not Promoted,0,False
+E0044,Engineering,Software Engineer,0.8,G1,34,3,8.6,18.7,B1,8.8,3.2,2.7,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0045,Finance,Accountant,1.1,G2,22,2,5.2,5.9,B2,4.2,3.3,2.9,0.18,0.0,0,Stayed,Not Promoted,0,False
+E0046,Finance,Finance Manager,2.0,G3,33,5,8.6,12.6,B2,4.8,3.2,3.2,0.39,0.0,0,Stayed,Not Promoted,0,False
+E0047,Engineering,QA Engineer,3.3,G1,35,8,8.0,4.8,B4,7.2,3.2,4.3,0.84,0.0,1,Stayed,Not Promoted,0,False
+E0048,Operations,Operations Associate,2.3,G5,25,8,9.2,10.8,B3,9.6,4.5,4.2,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0049,Sales,Sales Manager,2.5,G3,29,3,23.3,19.6,B5,6.1,2.6,4.0,0.68,0.0,1,Left,Not Promoted,1,False
+E0050,Customer Support,Support Specialist,5.1,G5,40,4,11.4,19.0,B5,7.3,3.1,2.0,0.67,1.0,0,Left,Promoted,1,False
+E0051,Engineering,Data Analyst,4.0,G1,40,5,12.9,20.0,B5,6.3,2.9,1.0,0.46,0.0,0,Stayed,Not Promoted,0,False
+E0052,Sales,Account Manager,6.3,G3,23,4,0.0,13.6,B1,10.5,2.4,4.2,0.28,1.0,0,Stayed,Promoted,0,False
+E0053,Engineering,Software Engineer,4.9,G2,35,8,2.9,15.7,B3,6.9,3.4,3.4,0.77,0.0,0,Stayed,Not Promoted,0,False
+E0054,Sales,Sales Manager,3.4,G4,34,4,16.9,22.4,B1,7.5,3.1,5.0,0.55,0.0,0,Left,Not Promoted,1,False
+E0055,Operations,Operations Associate,2.4,G3,30,1,5.5,17.3,B4,7.1,4.0,2.6,0.79,0.0,0,Stayed,Not Promoted,0,False
+E0056,Customer Support,Support Specialist,1.3,G2,37,2,13.5,17.3,B3,3.3,2.7,2.1,0.67,0.0,0,Stayed,Not Promoted,0,False
+E0057,Marketing,Content Specialist,4.4,G2,35,7,8.6,22.4,B2,10.6,3.0,3.7,0.56,1.0,0,Left,Promoted,1,False
+E0058,Engineering,QA Engineer,0.8,G1,30,5,0.0,10.1,B2,5.9,3.6,3.8,0.87,1.0,0,Left,Promoted,1,False
+E0059,HR,HR Executive,3.0,G2,32,6,2.2,17.8,B1,5.2,4.1,3.7,0.52,0.0,0,Stayed,Not Promoted,0,False
+E0060,Engineering,Data Analyst,0.8,G2,36,1,8.2,22.6,B3,0.0,2.2,3.9,0.32,0.0,1,Stayed,Not Promoted,0,False
+E0061,Sales,Account Manager,0.9,G3,31,6,9.1,11.6,B4,7.2,2.2,3.4,0.78,0.0,0,Stayed,Not Promoted,0,False
+E0062,Customer Support,Support Lead,2.5,G4,32,3,9.2,12.1,B5,6.3,4.5,3.1,0.41,0.0,0,Stayed,Not Promoted,0,False
+E0063,Engineering,Software Engineer,10.2,G2,39,4,15.1,15.3,B1,8.3,3.7,3.4,0.91,1.0,0,Stayed,Promoted,0,False
+E0064,Customer Support,Support Lead,4.8,G1,39,2,7.9,20.3,B5,11.1,2.8,4.4,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0065,Engineering,Data Analyst,2.7,G1,27,6,1.1,11.8,B3,7.8,4.3,3.5,0.28,0.0,0,Stayed,Not Promoted,0,False
+E0066,Marketing,Content Specialist,3.8,G2,37,3,12.1,16.1,B4,0.0,3.1,3.9,0.32,1.0,0,Stayed,Promoted,0,False
+E0067,Sales,Sales Executive,4.1,G5,35,7,7.4,16.5,B2,6.1,3.0,3.9,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0068,Sales,Account Manager,2.0,G2,38,0,10.6,12.5,B4,8.6,1.1,3.1,0.58,0.0,0,Stayed,Not Promoted,0,False
+E0069,Operations,Operations Analyst,11.6,G1,40,4,5.6,16.9,B4,7.5,2.3,3.7,0.51,1.0,1,Stayed,Promoted,0,False
+E0070,Customer Support,Support Specialist,2.6,G2,31,5,9.3,9.4,B2,7.9,2.7,5.0,0.27,0.0,0,Stayed,Not Promoted,0,False
+E0071,Customer Support,Support Agent,2.1,G3,27,2,11.9,13.2,B2,12.6,4.9,4.5,0.36,0.0,0,Stayed,Not Promoted,0,False
+E0072,Operations,Operations Associate,0.9,G4,28,1,7.0,13.3,B4,9.8,3.7,4.2,0.6,1.0,0,Stayed,Promoted,0,False
+E0073,Finance,Accountant,3.6,G2,30,7,0.0,18.6,B2,10.4,1.3,3.0,0.5,0.0,1,Stayed,Not Promoted,0,False
+E0074,Engineering,Data Analyst,2.2,G2,36,5,0.7,13.8,B3,4.0,3.7,5.0,0.55,0.0,0,Stayed,Not Promoted,0,False
+E0075,Engineering,QA Engineer,0.3,G1,27,3,6.2,15.1,B2,5.7,4.5,2.8,0.89,0.0,1,Stayed,Not Promoted,0,False
+E0076,Finance,Accountant,3.3,G1,37,6,12.2,5.6,B1,3.4,2.5,2.7,0.79,0.0,0,Stayed,Not Promoted,0,False
+E0077,Marketing,Marketing Executive,10.9,G3,28,4,14.0,14.9,B3,9.7,3.2,3.4,0.51,1.0,0,Stayed,Promoted,0,False
+E0078,Marketing,Content Specialist,2.8,G2,28,6,10.2,13.9,B1,7.8,2.5,3.4,0.93,0.0,1,Stayed,Not Promoted,0,False
+E0079,Engineering,Data Analyst,3.3,G1,30,1,11.3,11.3,B2,10.7,3.2,4.9,0.36,0.0,0,Stayed,Not Promoted,0,False
+E0080,Finance,Finance Manager,3.7,G1,30,1,16.7,18.3,B1,3.4,3.5,5.0,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0081,Sales,Sales Manager,3.8,G2,33,2,8.7,18.0,B4,3.6,4.2,1.8,0.77,0.0,0,Left,Not Promoted,1,False
+E0082,Finance,Financial Analyst,2.3,G1,25,11,14.7,10.5,B2,10.4,2.5,3.1,0.55,0.0,0,Stayed,Not Promoted,0,False
+E0083,Operations,Operations Associate,7.2,G2,28,3,5.9,6.1,B4,8.0,4.5,3.9,0.37,1.0,0,Stayed,Promoted,0,False
+E0084,Sales,Sales Manager,5.4,G2,37,2,6.8,10.3,B2,0.6,3.7,3.8,0.94,1.0,0,Stayed,Promoted,0,False
+E0085,Sales,Sales Manager,3.6,G2,28,5,8.1,15.8,B3,1.0,3.7,3.6,0.6,0.0,0,Left,Not Promoted,1,False
+E0086,Engineering,Data Analyst,3.5,G2,38,1,0.1,6.1,B4,11.6,3.6,3.4,0.72,0.0,1,Left,Not Promoted,1,False
+E0087,Marketing,Marketing Executive,2.6,G2,29,6,2.9,13.7,B1,3.0,2.9,3.1,0.71,0.0,0,Left,Not Promoted,1,False
+E0088,Marketing,Marketing Executive,6.0,G5,35,4,8.1,20.5,B2,5.6,4.6,3.4,0.58,1.0,0,Stayed,Promoted,0,False
+E0089,Engineering,Software Engineer,3.1,G2,31,4,14.7,6.5,B4,3.7,2.7,3.3,0.39,0.0,1,Stayed,Not Promoted,0,False
+E0090,Operations,Operations Analyst,8.4,G1,37,7,0.8,9.7,B2,7.6,3.6,4.3,0.45,1.0,1,Stayed,Promoted,0,False
+E0091,Customer Support,Support Specialist,2.4,G2,32,4,12.7,15.0,B1,9.0,3.9,3.5,0.68,,0,Stayed,Unknown,0,False
+E0092,Customer Support,Support Agent,1.2,G5,28,3,11.9,11.2,B1,4.7,3.9,4.2,0.81,,0,Stayed,Unknown,0,False
+E0093,Engineering,Team Lead,4.8,G1,34,5,0.0,9.3,B2,9.1,2.8,2.9,0.7,0.0,0,Stayed,Not Promoted,0,False
+E0094,Sales,Sales Executive,5.3,G3,25,2,5.5,20.3,B2,10.1,3.3,1.1,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0095,Engineering,Software Engineer,3.0,G1,38,3,1.1,15.2,B4,7.8,4.0,2.6,0.78,0.0,0,Stayed,Not Promoted,0,False
+E0096,Finance,Finance Manager,2.1,G2,28,7,7.7,15.0,B1,7.5,4.0,4.5,0.76,1.0,0,Stayed,Promoted,0,False
+E0097,Customer Support,Support Specialist,0.5,G4,24,7,7.7,11.6,B5,9.7,3.7,4.6,0.44,0.0,0,Stayed,Not Promoted,0,False
+E0098,Engineering,Software Engineer,4.8,G2,40,4,95.0,23.5,B3,0.0,3.1,3.5,0.97,0.0,0,Left,Not Promoted,1,True
+E0099,Customer Support,Support Lead,4.4,G2,33,6,5.7,13.3,B2,7.5,4.7,3.7,0.52,0.0,0,Stayed,Not Promoted,0,False
+E0100,HR,HR Executive,5.8,G1,32,5,7.6,14.2,B1,6.3,4.0,3.0,0.97,0.0,0,Left,Not Promoted,1,False
+E0101,Customer Support,Support Specialist,4.8,G1,34,6,12.3,9.8,B1,8.1,3.3,3.0,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0102,Sales,Sales Manager,5.8,G3,29,0,19.5,17.9,B2,0.0,2.6,3.5,0.41,1.0,0,Stayed,Promoted,0,False
+E0103,HR,Recruiter,4.5,G4,32,2,1.6,11.7,B4,10.1,2.5,4.8,0.89,0.0,0,Stayed,Not Promoted,0,False
+E0104,Engineering,Software Engineer,5.4,G2,33,3,5.4,18.6,B1,6.1,3.4,2.5,0.4,1.0,0,Stayed,Promoted,0,False
+E0105,Engineering,QA Engineer,4.4,G5,29,5,14.6,17.0,B2,8.5,3.5,3.7,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0106,Operations,Operations Analyst,6.7,G5,35,2,0.0,25.6,B5,5.2,2.9,3.6,0.86,0.0,0,Stayed,Not Promoted,0,False
+E0107,Finance,Finance Manager,2.5,G4,28,5,8.0,12.4,B2,6.0,3.2,5.0,0.64,,0,Stayed,Unknown,0,False
+E0108,Operations,Operations Associate,4.3,G1,38,6,5.8,14.6,B3,6.0,2.0,3.0,0.75,1.0,0,Left,Promoted,1,False
+E0109,Customer Support,Support Agent,2.3,G1,23,7,13.3,12.3,B5,8.2,4.7,3.6,0.96,0.0,0,Stayed,Not Promoted,0,False
+E0110,Sales,Sales Manager,1.2,G3,34,7,0.0,16.2,B2,7.5,2.4,3.2,0.05,0.0,0,Stayed,Not Promoted,0,False
+E0111,Marketing,Marketing Manager,4.9,G5,30,1,21.5,15.2,B4,5.7,4.9,3.3,0.9,1.0,0,Stayed,Promoted,0,False
+E0112,Engineering,Data Analyst,4.3,G5,30,4,0.0,17.0,B3,5.8,3.7,3.4,0.42,0.0,0,Stayed,Not Promoted,0,False
+E0113,Finance,Accountant,3.1,G1,39,3,0.0,10.7,B1,11.7,3.7,1.0,0.53,1.0,0,Left,Promoted,1,False
+E0114,Engineering,Software Engineer,9.7,G2,35,2,8.6,11.2,B5,8.1,4.1,4.1,0.68,1.0,0,Stayed,Promoted,0,False
+E0115,Marketing,Marketing Executive,2.6,G1,29,3,6.9,19.8,B2,4.7,4.6,1.6,0.76,0.0,0,Stayed,Not Promoted,0,False
+E0116,Engineering,Software Engineer,4.0,G3,32,1,4.6,16.4,B5,7.6,3.4,5.0,0.39,0.0,0,Stayed,Not Promoted,0,False
+E0117,Customer Support,Support Lead,13.2,G1,42,3,0.5,11.9,B3,6.0,3.4,4.3,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0118,Finance,Financial Analyst,3.1,G3,28,3,14.6,11.8,B3,7.3,4.3,3.6,0.86,1.0,0,Stayed,Promoted,0,False
+E0119,HR,HR Executive,4.6,G1,26,3,11.8,3.0,B1,6.1,4.6,3.1,0.61,1.0,0,Stayed,Promoted,0,False
+E0120,Engineering,Team Lead,1.1,G3,21,2,0.0,13.4,B1,8.3,4.7,4.7,0.56,0.0,0,Stayed,Not Promoted,0,False
+E0121,Engineering,Software Engineer,7.4,G2,32,6,9.5,10.0,B4,3.8,5.0,3.4,0.48,1.0,0,Stayed,Promoted,0,False
+E0122,Engineering,Software Engineer,5.2,G2,33,9,0.4,12.2,B2,5.2,4.5,3.5,0.84,1.0,0,Stayed,Promoted,0,False
+E0123,Sales,Account Manager,1.1,G1,27,2,10.9,16.1,B2,3.0,3.1,3.1,0.67,0.0,0,Left,Not Promoted,1,False
+E0124,Customer Support,Support Specialist,4.4,G4,36,9,3.4,12.3,B2,9.4,3.5,4.3,0.57,1.0,0,Stayed,Promoted,0,False
+E0125,Operations,Operations Manager,4.4,G2,22,2,7.7,7.3,B4,7.0,2.7,2.9,0.29,1.0,0,Stayed,Promoted,0,False
+E0126,Marketing,Marketing Executive,6.9,G1,29,3,14.5,13.7,B3,6.9,3.2,4.3,0.7,0.0,0,Stayed,Not Promoted,0,False
+E0127,Engineering,Software Engineer,6.9,G4,34,1,5.4,16.1,B4,1.5,2.2,3.3,0.7,0.0,0,Stayed,Not Promoted,0,False
+E0128,Finance,Finance Manager,2.5,G2,24,5,9.5,10.2,B2,7.4,2.5,3.4,0.45,0.0,1,Stayed,Not Promoted,0,False
+E0129,HR,HR Manager,1.9,G2,39,4,14.0,15.0,B1,8.4,3.6,2.8,0.5,0.0,0,Stayed,Not Promoted,0,False
+E0130,Engineering,Team Lead,3.9,G4,29,3,14.4,17.4,B1,7.0,4.3,3.3,0.4,0.0,0,Left,Not Promoted,1,False
+E0131,Finance,Financial Analyst,0.6,G4,23,3,5.1,13.6,B2,7.5,4.2,4.5,0.57,0.0,0,Stayed,Not Promoted,0,False
+E0132,Finance,Financial Analyst,5.2,G5,39,8,7.5,17.4,B4,3.0,4.3,2.1,0.72,0.0,0,Stayed,Not Promoted,0,False
+E0133,Finance,Accountant,1.8,G2,33,6,9.5,17.2,B3,0.7,3.0,2.9,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0134,Operations,Operations Analyst,7.6,G2,30,3,12.0,18.3,B5,6.1,3.7,2.8,0.54,0.0,0,Stayed,Not Promoted,0,False
+E0135,Operations,Operations Manager,3.5,G3,33,4,9.5,16.2,B4,8.3,5.0,3.7,0.61,1.0,0,Stayed,Promoted,0,False
+E0136,Customer Support,Support Agent,7.5,G3,41,3,12.4,19.1,B2,1.5,4.1,2.9,0.8,0.0,1,Stayed,Not Promoted,0,False
+E0137,Sales,Account Manager,5.7,G5,32,8,14.3,6.1,B1,9.0,4.2,3.8,0.71,1.0,0,Stayed,Promoted,0,False
+E0138,Engineering,Team Lead,3.1,G3,33,7,2.2,17.9,B3,10.7,3.8,4.6,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0139,Customer Support,Support Specialist,7.5,G1,34,4,1.6,14.7,B2,4.8,3.5,4.5,0.67,1.0,0,Stayed,Promoted,0,False
+E0140,Operations,Operations Analyst,8.1,G4,26,2,15.2,6.1,B3,7.1,4.3,2.7,0.51,1.0,0,Stayed,Promoted,0,False
+E0141,Customer Support,Support Agent,3.1,G3,27,5,12.9,10.6,B4,5.7,4.9,3.3,0.37,0.0,1,Stayed,Not Promoted,0,False
+E0142,Sales,Sales Manager,6.5,G2,30,4,15.7,2.6,B4,1.9,4.2,2.4,0.77,1.0,0,Stayed,Promoted,0,False
+E0143,Operations,Operations Associate,3.7,G2,26,3,13.8,15.6,B5,7.4,3.0,2.9,0.68,1.0,0,Stayed,Promoted,0,False
+E0144,Sales,Sales Manager,5.2,G1,27,5,1.5,5.6,B3,8.7,4.3,3.3,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0145,Engineering,QA Engineer,2.1,G3,32,1,5.8,22.0,B3,5.6,3.3,3.8,0.63,1.0,0,Stayed,Promoted,0,False
+E0146,Sales,Account Manager,1.2,G2,28,2,6.7,15.8,B2,5.4,3.2,3.6,0.34,0.0,1,Stayed,Not Promoted,0,False
+E0147,Finance,Finance Manager,4.0,G5,27,4,1.9,16.0,B2,3.6,5.0,3.4,0.41,0.0,0,Stayed,Not Promoted,0,False
+E0148,Finance,Accountant,7.8,G1,27,1,4.9,14.2,B4,4.9,3.5,2.0,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0149,Operations,Operations Analyst,2.0,G2,25,5,4.9,9.3,B3,6.1,3.4,2.1,0.58,0.0,0,Stayed,Not Promoted,0,False
+E0150,Operations,Operations Manager,10.2,G1,40,3,0.0,16.0,B3,8.6,3.3,4.4,0.92,1.0,1,Stayed,Promoted,0,False
+E0151,Marketing,Marketing Manager,1.6,G2,33,3,2.7,16.1,B3,10.6,4.2,1.6,0.45,0.0,0,Left,Not Promoted,1,False
+E0152,Customer Support,Support Lead,2.9,G2,34,2,21.1,11.0,B3,8.6,3.3,2.5,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0153,Operations,Operations Analyst,2.1,G1,25,2,6.1,14.1,B1,6.4,3.2,3.2,0.66,1.0,0,Stayed,Promoted,0,False
+E0154,Operations,Operations Manager,6.4,G3,40,3,0.4,16.2,B3,6.8,4.4,3.7,0.87,1.0,0,Stayed,Promoted,0,False
+E0155,Customer Support,Support Agent,3.6,G1,41,1,13.6,18.0,B3,8.0,2.9,3.7,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0156,Engineering,QA Engineer,1.7,G4,30,6,7.9,8.2,B3,5.9,4.3,3.6,0.08,0.0,0,Stayed,Not Promoted,0,False
+E0157,Customer Support,Support Lead,2.3,G3,23,9,7.0,5.1,B4,3.1,4.8,3.1,0.53,0.0,1,Stayed,Not Promoted,0,False
+E0158,Sales,Sales Executive,5.2,G1,38,6,0.0,0.3,B2,8.3,2.9,3.2,0.49,0.0,0,Left,Not Promoted,1,False
+E0159,Engineering,Software Engineer,1.9,G3,32,5,14.9,21.0,B5,11.4,3.7,2.8,0.61,0.0,0,Left,Not Promoted,1,False
+E0160,Engineering,Data Analyst,3.2,G4,34,5,2.8,19.0,B5,6.7,3.3,3.4,0.76,1.0,0,Stayed,Promoted,0,False
+E0161,Finance,Finance Manager,4.4,G1,26,5,13.6,9.9,B2,7.7,2.9,3.4,0.26,0.0,0,Stayed,Not Promoted,0,False
+E0162,Customer Support,Support Lead,6.5,G1,36,3,0.0,14.2,B2,6.4,3.8,4.1,0.97,0.0,0,Stayed,Not Promoted,0,False
+E0163,Operations,Operations Manager,2.9,G2,34,9,10.3,10.4,B3,9.3,3.7,2.6,0.69,1.0,0,Stayed,Promoted,0,False
+E0164,Customer Support,Support Lead,4.1,G2,25,2,7.2,7.6,B3,6.5,4.2,3.5,0.81,1.0,0,Stayed,Promoted,0,False
+E0165,Marketing,Marketing Executive,10.3,G2,36,8,20.3,12.8,B2,12.7,4.9,3.0,0.46,0.0,0,Stayed,Not Promoted,0,False
+E0166,Customer Support,Support Agent,4.4,G4,34,7,15.2,14.0,B2,3.9,3.4,2.7,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0167,Engineering,QA Engineer,0.9,G4,21,5,5.1,16.9,B2,9.3,4.3,2.4,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0168,HR,HR Manager,2.4,G1,28,5,18.5,19.1,B2,13.0,3.0,2.8,0.74,1.0,0,Stayed,Promoted,0,False
+E0169,Engineering,Data Analyst,2.3,G3,32,3,4.6,12.3,B4,10.6,3.3,3.6,0.39,0.0,0,Stayed,Not Promoted,0,False
+E0170,Marketing,Content Specialist,4.5,G4,30,1,11.3,13.0,B3,8.9,4.3,3.7,0.48,,0,Stayed,Unknown,0,False
+E0171,Finance,Finance Manager,8.5,G2,42,3,13.3,10.0,B2,13.9,2.7,2.8,0.84,1.0,0,Stayed,Promoted,0,False
+E0172,Customer Support,Support Agent,10.0,G2,35,4,11.9,12.0,B3,11.6,4.0,2.6,0.39,1.0,0,Stayed,Promoted,0,False
+E0173,Operations,Operations Manager,2.7,G4,36,6,0.0,2.8,B2,0.3,3.4,3.8,0.21,0.0,0,Stayed,Not Promoted,0,False
+E0174,Engineering,Software Engineer,4.8,G3,35,4,5.9,5.5,B3,6.1,4.1,3.4,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0175,Marketing,Marketing Executive,4.9,G3,28,5,11.1,7.0,B3,4.2,3.5,4.8,0.4,0.0,0,Stayed,Not Promoted,0,False
+E0176,Customer Support,Support Lead,5.0,G2,25,1,11.0,18.8,B3,2.6,2.7,4.3,0.21,1.0,0,Stayed,Promoted,0,False
+E0177,Marketing,Marketing Executive,4.7,G5,33,1,12.6,8.7,B3,11.2,3.7,2.8,0.42,0.0,0,Stayed,Not Promoted,0,False
+E0178,HR,HR Manager,5.3,G3,36,5,17.8,19.2,B4,5.5,2.1,4.2,0.56,0.0,0,Stayed,Not Promoted,0,False
+E0179,Engineering,Data Analyst,5.7,G2,32,3,120.0,10.4,B4,8.4,4.4,3.6,0.75,1.0,0,Stayed,Promoted,0,True
+E0180,Engineering,QA Engineer,5.2,G2,32,2,12.1,18.1,B1,4.0,3.0,4.4,0.74,0.0,1,Left,Not Promoted,1,False
+E0181,Engineering,QA Engineer,1.9,G2,21,2,19.5,18.1,B5,1.6,3.7,3.7,0.92,0.0,0,Stayed,Not Promoted,0,False
+E0182,Sales,Account Manager,2.6,G3,32,2,14.8,13.7,B3,3.1,4.4,3.3,0.77,0.0,0,Stayed,Not Promoted,0,False
+E0183,Customer Support,Support Lead,7.2,G3,37,6,19.7,17.3,B3,11.0,3.2,3.8,0.87,1.0,0,Stayed,Promoted,0,False
+E0184,Operations,Operations Analyst,3.9,G1,37,2,8.1,7.6,B4,6.6,1.5,3.0,0.46,0.0,0,Stayed,Not Promoted,0,False
+E0185,Sales,Sales Manager,6.5,G3,33,2,9.1,14.4,B3,8.1,3.2,3.3,0.38,1.0,1,Stayed,Promoted,0,False
+E0186,Finance,Financial Analyst,0.9,G2,31,6,9.6,12.6,B4,7.1,3.0,4.0,0.51,0.0,1,Left,Not Promoted,1,False
+E0187,Marketing,Marketing Executive,2.3,G4,33,4,9.5,16.2,B3,11.5,3.1,2.5,0.67,1.0,0,Stayed,Promoted,0,False
+E0188,Engineering,QA Engineer,1.9,G3,28,1,8.0,11.4,B3,2.9,1.8,3.3,0.72,0.0,0,Left,Not Promoted,1,False
+E0189,Marketing,Content Specialist,9.8,G2,34,2,7.0,9.6,B4,13.8,2.9,4.6,0.73,1.0,1,Stayed,Promoted,0,False
+E0190,Engineering,Data Analyst,2.9,G1,25,3,6.1,22.8,B4,5.8,3.4,4.2,0.68,0.0,1,Stayed,Not Promoted,0,False
+E0191,Sales,Sales Executive,3.2,G2,32,3,0.0,9.1,B1,9.0,4.0,4.6,0.57,0.0,0,Stayed,Not Promoted,0,False
+E0192,Operations,Operations Associate,2.9,G5,28,6,0.1,20.3,B3,9.0,3.2,3.4,0.27,0.0,0,Left,Not Promoted,1,False
+E0193,Engineering,Team Lead,3.6,G1,21,6,3.4,7.1,B3,0.0,2.9,1.7,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0194,Customer Support,Support Lead,8.5,G2,38,2,9.4,21.8,B3,4.7,3.6,2.6,0.48,1.0,0,Stayed,Promoted,0,False
+E0195,Customer Support,Support Lead,6.0,G2,37,4,3.5,14.0,B3,2.9,2.8,3.7,0.55,0.0,0,Stayed,Not Promoted,0,False
+E0196,Sales,Sales Manager,4.6,G1,34,6,1.1,7.2,B3,5.6,2.9,4.7,0.75,1.0,0,Stayed,Promoted,0,False
+E0197,Engineering,Team Lead,5.1,G4,28,3,2.7,16.2,B2,9.5,4.2,4.1,0.46,0.0,0,Stayed,Not Promoted,0,False
+E0198,Marketing,Marketing Manager,0.1,G3,25,5,5.5,14.0,B1,7.1,3.9,3.9,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0199,Sales,Account Manager,9.6,G2,34,8,8.1,13.1,B2,11.5,2.5,3.4,0.68,1.0,0,Stayed,Promoted,0,False
+E0200,Engineering,QA Engineer,3.1,G4,31,1,11.8,15.1,B2,6.4,4.7,3.6,0.75,1.0,1,Stayed,Promoted,0,False
+E0201,Operations,Operations Associate,4.9,G1,35,7,7.4,19.2,B3,6.5,2.8,2.8,0.7,1.0,1,Stayed,Promoted,0,False
+E0202,Finance,Financial Analyst,0.7,G2,23,2,13.3,6.1,B3,4.2,2.6,4.0,0.64,1.0,0,Stayed,Promoted,0,False
+E0203,Engineering,Data Analyst,7.2,G1,39,3,22.4,9.7,B4,5.1,3.3,3.2,0.3,0.0,0,Left,Not Promoted,1,False
+E0204,Engineering,Team Lead,7.4,G1,37,4,5.4,14.0,B2,12.6,3.9,4.2,0.83,1.0,1,Stayed,Promoted,0,False
+E0205,Finance,Finance Manager,1.1,G2,34,5,20.1,12.8,B2,5.3,4.3,4.5,0.89,1.0,0,Stayed,Promoted,0,False
+E0206,Finance,Accountant,5.4,G4,36,4,9.9,18.4,B4,11.7,3.1,1.5,0.22,1.0,0,Stayed,Promoted,0,False
+E0207,Marketing,Marketing Manager,7.1,G2,37,5,0.0,14.5,B2,5.8,3.9,3.4,0.95,0.0,1,Stayed,Not Promoted,0,False
+E0208,Operations,Operations Associate,4.0,G3,40,3,7.4,17.1,B2,4.9,3.8,2.4,0.26,0.0,0,Left,Not Promoted,1,False
+E0209,Finance,Finance Manager,1.7,G3,30,4,15.9,15.2,B1,4.9,4.4,3.7,0.09,0.0,0,Stayed,Not Promoted,0,False
+E0210,Operations,Operations Analyst,11.7,G4,45,3,13.9,14.2,B5,10.2,5.0,3.9,0.63,1.0,0,Stayed,Promoted,0,False
+E0211,Customer Support,Support Agent,6.6,G1,37,3,9.3,22.4,B3,2.3,4.0,2.3,0.89,0.0,1,Stayed,Not Promoted,0,False
+E0212,Customer Support,Support Agent,2.2,G3,27,6,1.8,6.3,B5,8.8,5.0,2.6,0.6,0.0,1,Stayed,Not Promoted,0,False
+E0213,Sales,Sales Executive,5.0,G4,37,6,5.9,15.4,B1,10.8,3.4,3.9,0.77,1.0,0,Stayed,Promoted,0,False
+E0214,Marketing,Content Specialist,0.3,G2,24,4,17.0,13.6,B4,4.0,3.9,2.1,0.73,0.0,1,Stayed,Not Promoted,0,False
+E0215,Finance,Accountant,8.1,G3,33,3,9.4,14.3,B4,2.6,3.1,4.0,0.67,1.0,0,Stayed,Promoted,0,False
+E0216,Operations,Operations Manager,5.3,G3,27,4,5.3,8.0,B3,10.3,4.0,3.5,0.7,0.0,1,Stayed,Not Promoted,0,False
+E0217,Operations,Operations Manager,1.3,G4,21,5,6.5,6.2,B5,4.7,3.4,3.9,0.76,0.0,0,Stayed,Not Promoted,0,False
+E0218,HR,HR Executive,5.3,G5,45,6,13.5,16.1,B3,6.4,2.5,2.4,0.59,0.0,1,Left,Not Promoted,1,False
+E0219,Finance,Accountant,0.8,G3,26,2,8.4,24.6,B3,3.3,3.0,4.2,0.82,0.0,0,Stayed,Not Promoted,0,False
+E0220,Sales,Account Manager,1.3,G2,28,3,8.8,11.3,B2,5.4,5.0,3.4,0.63,0.0,1,Left,Not Promoted,1,False
+E0221,Engineering,Team Lead,2.8,G2,32,2,15.5,16.7,B2,11.4,3.6,2.1,0.69,0.0,1,Stayed,Not Promoted,0,False
+E0222,Marketing,Marketing Executive,2.4,G1,38,3,11.3,4.8,B1,8.9,3.5,3.1,0.5,0.0,0,Stayed,Not Promoted,0,False
+E0223,Engineering,QA Engineer,5.0,G4,30,3,15.4,14.5,B2,11.5,2.3,4.3,0.41,0.0,0,Stayed,Not Promoted,0,False
+E0224,Sales,Sales Executive,3.9,G5,40,4,20.4,10.9,B5,9.2,3.4,2.9,0.86,0.0,0,Stayed,Not Promoted,0,False
+E0225,Customer Support,Support Lead,5.0,G5,40,4,3.7,6.1,B3,6.7,3.6,1.9,0.54,0.0,0,Stayed,Not Promoted,0,False
+E0226,Operations,Operations Associate,1.3,G4,22,5,9.9,13.2,B1,1.8,2.7,4.4,0.61,0.0,0,Left,Not Promoted,1,False
+E0227,Engineering,QA Engineer,19.1,G1,51,5,10.4,7.2,B3,4.9,2.4,2.3,0.58,0.0,1,Stayed,Not Promoted,0,False
+E0228,Sales,Sales Manager,6.1,G1,33,5,2.3,22.2,B1,11.1,2.6,2.6,0.87,1.0,0,Stayed,Promoted,0,False
+E0229,Customer Support,Support Specialist,1.0,G4,26,5,4.6,7.0,B2,7.2,3.6,3.8,0.58,0.0,0,Stayed,Not Promoted,0,False
+E0230,Customer Support,Support Specialist,4.5,G3,24,4,3.3,11.7,B4,7.0,2.6,5.0,0.8,1.0,0,Stayed,Promoted,0,False
+E0231,Finance,Financial Analyst,4.9,G1,28,2,2.1,10.5,B2,9.4,4.4,3.3,0.94,0.0,0,Stayed,Not Promoted,0,False
+E0232,Engineering,Data Analyst,1.5,G3,22,4,1.0,15.1,B5,5.8,3.4,1.8,0.31,0.0,0,Stayed,Not Promoted,0,False
+E0233,Operations,Operations Manager,3.0,G2,30,4,14.6,11.7,B5,7.9,4.0,4.0,0.87,0.0,0,Stayed,Not Promoted,0,False
+E0234,Finance,Financial Analyst,1.2,G1,31,4,0.0,16.0,B2,8.2,3.9,2.7,0.64,0.0,1,Stayed,Not Promoted,0,False
+E0235,Sales,Sales Executive,1.1,G2,25,5,12.7,13.2,B4,8.7,3.7,2.0,0.27,,0,Left,Unknown,1,False
+E0236,Operations,Operations Manager,11.0,G3,32,7,7.4,9.3,B3,10.6,3.3,4.7,0.64,1.0,1,Stayed,Promoted,0,False
+E0237,Operations,Operations Analyst,3.3,G2,27,7,0.0,14.8,B4,8.1,4.0,3.3,0.45,0.0,1,Stayed,Not Promoted,0,False
+E0238,Engineering,Software Engineer,4.2,G2,35,6,11.0,15.5,B2,9.4,2.9,4.0,0.29,1.0,0,Stayed,Promoted,0,False
+E0239,Operations,Operations Manager,3.1,G3,29,2,0.0,10.6,B2,5.0,1.7,3.2,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0240,Sales,Sales Manager,6.1,G4,35,5,9.6,16.3,B3,10.0,3.6,2.7,0.46,1.0,0,Left,Promoted,1,False
+E0241,Engineering,Data Analyst,0.5,G2,26,6,1.8,7.6,B3,7.0,3.8,2.9,0.4,0.0,1,Stayed,Not Promoted,0,False
+E0242,Operations,Operations Manager,6.0,G4,46,6,0.0,13.0,B3,8.4,3.0,3.0,0.79,1.0,0,Stayed,Promoted,0,False
+E0243,Finance,Financial Analyst,15.6,G2,43,0,4.4,12.7,B3,8.1,3.5,2.7,0.63,0.0,0,Stayed,Not Promoted,0,False
+E0244,Operations,Operations Manager,3.4,G3,32,5,8.5,13.1,B2,3.6,4.8,3.6,0.69,0.0,0,Left,Not Promoted,1,False
+E0245,Operations,Operations Associate,3.2,G3,29,3,13.3,9.5,B2,4.4,5.0,2.9,0.6,1.0,0,Stayed,Promoted,0,False
+E0246,Finance,Financial Analyst,8.9,G2,25,4,6.6,14.4,B2,5.0,3.1,3.5,0.28,1.0,0,Stayed,Promoted,0,False
+E0247,Marketing,Content Specialist,3.4,G3,41,2,13.1,11.5,B3,8.0,3.8,4.3,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0248,Engineering,Software Engineer,3.4,G2,33,5,5.0,9.4,B2,8.6,3.6,3.5,0.86,0.0,0,Stayed,Not Promoted,0,False
+E0249,Engineering,QA Engineer,7.0,G1,35,5,5.3,11.8,B2,8.1,3.6,3.3,0.74,1.0,0,Stayed,Promoted,0,False
+E0250,Sales,Sales Executive,8.1,G4,38,1,3.3,11.5,B1,6.4,2.2,3.4,0.31,1.0,0,Stayed,Promoted,0,False
+E0251,Engineering,Software Engineer,6.9,G3,31,3,3.4,11.6,B5,7.1,2.6,4.6,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0252,Engineering,Software Engineer,9.8,G3,35,2,10.6,6.8,B2,2.7,4.8,2.1,0.42,1.0,0,Stayed,Promoted,0,False
+E0253,Customer Support,Support Specialist,4.1,G5,24,1,6.5,22.4,B3,4.4,3.5,2.3,0.45,0.0,0,Stayed,Not Promoted,0,False
+E0254,Marketing,Content Specialist,4.8,G3,46,3,6.2,11.4,B2,6.9,4.1,3.2,0.65,1.0,1,Stayed,Promoted,0,False
+E0255,Operations,Operations Associate,3.8,G4,28,8,0.7,9.0,B2,5.8,2.2,4.0,0.38,0.0,1,Stayed,Not Promoted,0,False
+E0256,Engineering,Data Analyst,1.2,G4,24,2,5.5,16.0,B5,6.2,4.8,2.8,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0257,Customer Support,Support Specialist,6.2,G2,28,2,0.8,8.7,B4,4.6,4.8,2.6,0.86,0.0,0,Stayed,Not Promoted,0,False
+E0258,Finance,Financial Analyst,2.2,G1,34,4,4.6,15.1,B3,5.9,4.2,2.7,0.73,1.0,0,Stayed,Promoted,0,False
+E0259,Engineering,Team Lead,2.8,G1,25,5,9.0,11.0,B2,3.2,2.9,3.5,0.72,0.0,0,Stayed,Not Promoted,0,False
+E0260,Engineering,Software Engineer,6.1,G2,27,2,15.4,18.7,B4,4.5,3.1,3.5,0.54,1.0,0,Stayed,Promoted,0,False
+E0261,Operations,Operations Manager,0.6,G1,28,5,9.6,24.9,B2,12.5,3.6,3.3,0.5,0.0,1,Stayed,Not Promoted,0,False
+E0262,Engineering,Software Engineer,1.1,G1,31,3,0.6,15.6,B4,9.8,3.5,3.2,0.51,0.0,0,Stayed,Not Promoted,0,False
+E0263,Customer Support,Support Specialist,1.4,G3,27,5,6.7,7.7,B5,13.4,3.6,3.8,0.52,0.0,0,Stayed,Not Promoted,0,False
+E0264,Customer Support,Support Lead,5.6,G2,30,4,4.3,17.7,B1,10.8,2.9,2.6,0.92,0.0,1,Stayed,Not Promoted,0,False
+E0265,Engineering,Data Analyst,6.2,G3,30,4,11.9,15.2,B2,6.0,3.6,2.8,0.97,1.0,0,Stayed,Promoted,0,False
+E0266,Operations,Operations Manager,1.0,G3,29,8,5.7,14.0,B1,6.6,3.3,1.8,0.86,1.0,0,Stayed,Promoted,0,False
+E0267,Finance,Finance Manager,2.9,G3,31,3,9.5,20.1,B5,7.0,3.0,2.5,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0268,Engineering,QA Engineer,2.6,G1,39,1,11.5,16.0,B2,2.9,3.5,3.6,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0269,Operations,Operations Manager,2.2,G2,31,3,2.3,12.7,B1,5.2,2.5,1.8,0.76,0.0,0,Stayed,Not Promoted,0,False
+E0270,HR,HR Manager,6.1,G1,32,3,11.4,17.7,B2,3.6,2.5,3.1,0.59,0.0,0,Stayed,Not Promoted,0,False
+E0271,HR,Recruiter,2.2,G3,23,3,12.6,10.4,B2,7.6,3.5,4.0,0.78,,0,Stayed,Unknown,0,False
+E0272,Sales,Sales Manager,4.1,G1,21,6,9.3,12.4,B1,10.9,3.5,3.6,0.61,0.0,1,Stayed,Not Promoted,0,False
+E0273,Engineering,Data Analyst,7.9,G3,37,1,5.5,21.0,B4,11.0,2.1,3.0,0.56,0.0,0,Stayed,Not Promoted,0,False
+E0274,Marketing,Marketing Manager,9.0,G3,39,7,5.7,9.9,B3,9.0,4.5,3.7,0.56,1.0,0,Stayed,Promoted,0,False
+E0275,Engineering,Data Analyst,1.1,G4,29,5,12.9,15.3,B2,6.9,3.7,2.7,0.36,0.0,1,Stayed,Not Promoted,0,False
+E0276,Operations,Operations Manager,1.0,G4,36,4,10.3,18.9,B3,11.9,2.7,4.1,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0277,Operations,Operations Associate,8.0,G1,37,6,12.2,17.5,B4,9.5,5.0,3.4,0.39,1.0,0,Left,Promoted,1,False
+E0278,Customer Support,Support Lead,4.4,G1,37,1,13.7,17.7,B5,11.1,3.7,3.8,0.76,0.0,1,Left,Not Promoted,1,False
+E0279,Customer Support,Support Agent,2.0,G2,31,4,12.7,12.4,B2,6.5,3.9,3.3,0.79,1.0,0,Stayed,Promoted,0,False
+E0280,Operations,Operations Manager,2.8,G2,30,1,0.0,11.2,B2,12.1,4.0,3.1,0.56,0.0,1,Stayed,Not Promoted,0,False
+E0281,Operations,Operations Manager,7.3,G2,26,6,2.8,19.5,B3,4.1,2.8,3.5,0.83,0.0,0,Stayed,Not Promoted,0,False
+E0282,Engineering,QA Engineer,3.0,G1,30,7,7.7,7.1,B3,6.4,4.4,4.1,0.69,0.0,1,Stayed,Not Promoted,0,False
+E0283,Engineering,Team Lead,4.9,G5,30,3,1.6,7.8,B4,8.5,3.2,4.4,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0284,Engineering,Software Engineer,2.4,G3,30,4,3.1,5.1,B4,9.4,4.6,1.6,0.82,0.0,0,Stayed,Not Promoted,0,False
+E0285,Operations,Operations Analyst,1.7,G4,28,3,21.7,14.3,B2,0.0,2.9,3.2,0.55,0.0,0,Left,Not Promoted,1,False
+E0286,Finance,Accountant,3.3,G4,21,3,5.6,19.7,B2,8.4,2.6,4.6,0.93,1.0,0,Stayed,Promoted,0,False
+E0287,Finance,Financial Analyst,3.8,G3,42,2,7.9,4.1,B2,6.9,3.8,3.0,0.34,0.0,0,Stayed,Not Promoted,0,False
+E0288,Customer Support,Support Specialist,1.1,G3,25,5,13.5,13.4,B5,10.9,3.5,2.9,0.6,1.0,0,Left,Promoted,1,False
+E0289,Engineering,Team Lead,6.6,G3,25,4,6.8,14.8,B5,5.4,3.4,2.6,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0290,Finance,Finance Manager,2.4,G3,21,4,1.9,16.6,B2,6.1,1.7,3.7,0.63,1.0,0,Stayed,Promoted,0,False
+E0291,HR,HR Executive,4.0,G2,32,4,7.5,9.4,B2,9.6,4.1,3.3,0.41,1.0,1,Stayed,Promoted,0,False
+E0292,Sales,Sales Executive,4.8,G2,30,3,0.0,8.3,B2,8.0,2.9,2.4,0.81,0.0,1,Stayed,Not Promoted,0,False
+E0293,Finance,Finance Manager,2.5,G1,32,5,3.0,17.9,B2,3.0,3.9,4.0,0.33,0.0,0,Stayed,Not Promoted,0,False
+E0294,Engineering,Team Lead,6.9,G4,32,5,10.1,19.1,B4,10.1,4.1,2.4,0.85,1.0,0,Stayed,Promoted,0,False
+E0295,HR,HR Manager,1.8,G2,21,5,14.4,10.0,B4,9.2,4.5,2.9,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0296,Engineering,QA Engineer,2.0,G4,29,1,6.4,11.3,B2,7.0,3.0,2.5,0.47,0.0,0,Stayed,Not Promoted,0,False
+E0297,Finance,Finance Manager,8.2,G5,37,2,0.4,13.3,B1,11.3,4.2,3.6,0.26,1.0,1,Stayed,Promoted,0,False
+E0298,Engineering,Software Engineer,9.3,G1,46,7,9.8,3.9,B2,8.6,4.0,3.4,0.45,1.0,0,Stayed,Promoted,0,False
+E0299,Operations,Operations Manager,11.7,G2,40,5,6.4,18.4,B5,0.2,3.0,2.7,0.52,1.0,0,Stayed,Promoted,0,False
+E0300,Engineering,Data Analyst,6.2,G2,34,2,12.7,16.7,B2,7.4,2.9,2.8,0.28,1.0,1,Stayed,Promoted,0,False
+E0301,Finance,Finance Manager,1.6,G4,31,2,7.9,16.2,B4,7.6,2.7,4.2,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0302,Engineering,Team Lead,14.8,G3,40,3,9.9,14.1,B4,5.6,2.4,3.1,0.45,1.0,0,Stayed,Promoted,0,False
+E0303,Customer Support,Support Lead,1.1,G3,28,1,2.6,14.6,B1,7.6,3.2,3.9,0.78,1.0,0,Stayed,Promoted,0,False
+E0304,Sales,Sales Manager,3.5,G2,31,6,8.4,13.1,B3,10.1,4.3,2.5,0.6,0.0,0,Stayed,Not Promoted,0,False
+E0305,Sales,Sales Executive,4.2,G1,31,6,2.2,15.1,B4,5.8,3.4,2.8,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0306,Engineering,Team Lead,0.6,G1,28,2,9.8,12.5,B4,5.5,3.4,3.4,0.97,1.0,0,Stayed,Promoted,0,False
+E0307,Sales,Sales Manager,5.1,G3,36,1,9.2,2.9,B2,3.5,4.1,3.7,0.74,,0,Stayed,Unknown,0,False
+E0308,Operations,Operations Analyst,1.7,G3,31,5,1.5,8.5,B3,10.7,4.3,4.2,0.7,1.0,0,Stayed,Promoted,0,False
+E0309,Finance,Financial Analyst,10.7,G2,32,3,13.3,23.1,B1,12.4,2.9,3.6,0.48,1.0,1,Stayed,Promoted,0,False
+E0310,Finance,Financial Analyst,4.3,G3,26,2,10.3,22.1,B1,11.3,2.4,2.1,0.25,0.0,0,Stayed,Not Promoted,0,False
+E0311,Customer Support,Support Lead,5.0,G4,39,6,13.2,6.6,B3,9.1,4.0,3.5,0.67,,0,Stayed,Unknown,0,False
+E0312,Marketing,Content Specialist,6.3,G3,40,3,0.0,18.8,B2,7.6,3.7,4.1,0.55,1.0,0,Stayed,Promoted,0,False
+E0313,Operations,Operations Associate,2.3,G3,36,5,9.7,14.6,B2,8.0,3.6,2.7,0.78,0.0,0,Left,Not Promoted,1,False
+E0314,Engineering,Team Lead,1.7,G2,21,2,18.2,6.3,B3,6.4,3.2,1.9,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0315,Marketing,Marketing Executive,1.8,G4,34,4,9.9,15.0,B2,8.5,3.2,4.8,0.61,0.0,1,Stayed,Not Promoted,0,False
+E0316,Marketing,Marketing Executive,8.4,G3,36,10,8.9,15.5,B3,10.1,3.9,2.6,0.51,0.0,0,Stayed,Not Promoted,0,False
+E0317,Operations,Operations Analyst,1.5,G4,29,2,11.0,17.6,B3,6.1,2.2,4.4,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0318,Finance,Accountant,0.5,G1,23,11,4.0,11.5,B3,4.7,2.1,2.7,0.69,0.0,1,Stayed,Not Promoted,0,False
+E0319,Finance,Financial Analyst,0.5,G1,33,4,0.0,13.5,B4,9.1,3.4,3.8,0.77,0.0,0,Stayed,Not Promoted,0,False
+E0320,Engineering,Data Analyst,5.4,G2,36,7,13.9,11.0,B3,6.8,3.8,3.0,0.78,1.0,0,Stayed,Promoted,0,False
+E0321,Engineering,Software Engineer,14.0,G2,42,4,4.6,15.7,B2,8.4,4.0,2.6,0.55,,1,Stayed,Unknown,0,False
+E0322,Operations,Operations Analyst,4.9,G3,41,4,1.1,18.9,B3,7.9,2.5,1.8,0.32,1.0,0,Stayed,Promoted,0,False
+E0323,Operations,Operations Associate,1.0,G2,26,4,6.6,14.5,B2,9.6,4.9,3.0,0.18,0.0,1,Stayed,Not Promoted,0,False
+E0324,Sales,Account Manager,4.5,G2,37,3,11.9,8.4,B2,10.6,5.0,3.4,0.72,0.0,0,Left,Not Promoted,1,False
+E0325,Finance,Finance Manager,2.5,G2,36,5,14.9,9.9,B2,5.8,4.6,3.1,0.31,1.0,0,Stayed,Promoted,0,False
+E0326,Engineering,Data Analyst,15.2,G4,46,7,5.3,7.6,B1,6.6,3.9,5.0,0.39,1.0,0,Stayed,Promoted,0,False
+E0327,Operations,Operations Associate,3.5,G4,36,4,10.1,18.3,B2,6.0,2.2,3.4,0.87,1.0,0,Stayed,Promoted,0,False
+E0328,Customer Support,Support Lead,1.7,G2,28,4,7.7,10.0,B3,11.5,2.2,2.2,0.52,0.0,0,Stayed,Not Promoted,0,False
+E0329,Customer Support,Support Agent,6.0,G2,36,1,12.0,21.8,B2,8.1,3.1,4.1,0.64,1.0,0,Stayed,Promoted,0,False
+E0330,Engineering,Data Analyst,2.5,G2,23,4,7.8,5.9,B2,7.4,3.3,3.3,0.59,0.0,0,Stayed,Not Promoted,0,False
+E0331,Marketing,Content Specialist,1.0,G4,25,8,10.1,24.5,B5,1.5,3.3,3.1,0.11,0.0,0,Left,Not Promoted,1,False
+E0332,HR,Recruiter,5.6,G2,40,3,7.0,21.1,B1,7.7,3.2,4.0,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0333,Marketing,Marketing Manager,5.6,G5,23,9,10.4,21.7,B5,8.3,3.6,5.0,0.76,0.0,1,Stayed,Not Promoted,0,False
+E0334,Engineering,Team Lead,1.2,G2,23,6,9.6,9.5,B1,4.2,4.0,3.8,0.58,0.0,0,Stayed,Not Promoted,0,False
+E0335,HR,HR Manager,7.3,G3,39,4,13.3,12.6,B4,7.0,3.5,3.8,0.45,1.0,0,Stayed,Promoted,0,False
+E0336,Marketing,Content Specialist,2.1,G2,24,5,6.2,19.1,B2,10.7,3.7,3.0,0.67,0.0,0,Left,Not Promoted,1,False
+E0337,Marketing,Content Specialist,4.3,G4,25,7,14.4,12.8,B2,6.0,2.9,3.5,0.12,0.0,0,Stayed,Not Promoted,0,False
+E0338,Operations,Operations Manager,10.5,G2,38,1,3.2,18.5,B2,8.8,3.9,2.9,0.38,0.0,0,Stayed,Not Promoted,0,False
+E0339,Finance,Financial Analyst,2.9,G2,30,4,0.1,19.1,B3,7.6,2.6,3.0,0.43,1.0,0,Left,Promoted,1,False
+E0340,Customer Support,Support Lead,2.5,G4,28,4,9.0,17.9,B1,11.5,2.4,3.2,0.79,0.0,0,Stayed,Not Promoted,0,False
+E0341,Operations,Operations Associate,2.4,G2,32,3,0.5,18.6,B1,1.7,3.4,2.5,0.67,0.0,1,Stayed,Not Promoted,0,False
+E0342,HR,HR Executive,5.1,G4,37,4,11.4,13.8,B3,5.8,5.0,2.9,0.59,0.0,1,Stayed,Not Promoted,0,False
+E0343,Sales,Sales Manager,5.8,G3,36,4,14.0,7.4,B3,8.9,4.2,2.4,0.93,1.0,0,Stayed,Promoted,0,False
+E0344,Engineering,QA Engineer,9.1,G2,25,4,8.9,13.4,B2,11.7,2.9,1.9,0.45,1.0,0,Stayed,Promoted,0,False
+E0345,Engineering,QA Engineer,1.7,G2,28,3,0.0,21.7,B2,6.8,3.6,1.5,0.74,1.0,0,Stayed,Promoted,0,False
+E0346,Engineering,QA Engineer,4.4,G5,33,4,7.4,11.6,B1,4.9,4.1,3.2,0.22,1.0,1,Stayed,Promoted,0,False
+E0347,Sales,Sales Manager,2.1,G2,36,3,6.0,13.4,B4,12.1,3.9,2.8,0.49,0.0,0,Stayed,Not Promoted,0,False
+E0348,Finance,Accountant,9.7,G1,34,5,9.0,8.5,B5,3.3,3.6,3.7,0.39,1.0,0,Stayed,Promoted,0,False
+E0349,Customer Support,Support Agent,5.1,G2,29,2,4.0,13.2,B3,5.2,1.8,5.0,0.61,1.0,1,Stayed,Promoted,0,False
+E0350,HR,Recruiter,2.6,G4,39,5,8.3,7.9,B2,7.9,4.6,2.7,0.52,0.0,0,Stayed,Not Promoted,0,False
+E0351,Engineering,Software Engineer,6.0,G1,38,5,24.2,21.2,B4,2.7,3.3,2.6,0.58,0.0,1,Stayed,Not Promoted,0,True
+E0352,Sales,Sales Executive,3.8,G3,29,2,9.3,13.2,B3,4.1,3.5,3.2,0.6,0.0,0,Left,Not Promoted,1,False
+E0353,Customer Support,Support Agent,1.1,G3,30,4,5.5,22.2,B4,3.3,2.2,5.0,0.89,0.0,0,Left,Not Promoted,1,False
+E0354,Customer Support,Support Agent,1.5,G2,35,5,12.1,11.1,B2,10.2,2.0,3.0,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0355,Marketing,Content Specialist,3.3,G4,36,6,19.9,13.3,B1,7.3,2.5,3.6,0.26,,0,Stayed,Unknown,0,False
+E0356,Engineering,Team Lead,5.7,G3,26,4,13.0,16.1,B3,1.0,3.1,2.8,0.48,1.0,1,Stayed,Promoted,0,False
+E0357,Operations,Operations Associate,10.7,G5,50,2,14.1,4.4,B4,5.6,3.1,3.6,0.46,1.0,0,Stayed,Promoted,0,False
+E0358,Operations,Operations Associate,3.8,G2,44,4,12.5,13.1,B2,11.6,3.1,3.5,0.42,1.0,1,Stayed,Promoted,0,False
+E0359,Marketing,Content Specialist,1.8,G1,22,7,12.2,17.5,B3,7.7,4.0,4.1,0.79,0.0,0,Stayed,Not Promoted,0,False
+E0360,Engineering,QA Engineer,1.9,G3,21,4,9.0,6.6,B1,5.5,4.8,4.8,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0361,Operations,Operations Associate,5.7,G2,34,6,6.2,6.6,B3,6.7,5.0,3.7,0.42,0.0,0,Stayed,Not Promoted,0,False
+E0362,Finance,Accountant,8.3,G3,43,5,12.7,7.9,B3,11.2,3.7,3.3,0.7,1.0,0,Stayed,Promoted,0,False
+E0363,Customer Support,Support Agent,2.8,G2,30,0,12.1,12.0,B2,10.6,2.2,3.6,0.26,0.0,0,Stayed,Not Promoted,0,False
+E0364,Sales,Sales Manager,2.5,G4,35,6,11.2,22.5,B4,9.2,4.5,3.2,0.58,0.0,1,Stayed,Not Promoted,0,False
+E0365,Marketing,Content Specialist,2.6,G5,28,2,6.2,16.1,B5,11.0,3.7,4.2,0.28,0.0,0,Stayed,Not Promoted,0,False
+E0366,Operations,Operations Analyst,4.8,G1,31,6,9.7,18.7,B1,6.7,3.6,3.2,0.51,0.0,0,Stayed,Not Promoted,0,False
+E0367,Sales,Account Manager,3.0,G3,28,3,9.5,23.4,B4,2.5,2.9,1.7,0.64,0.0,0,Stayed,Not Promoted,0,False
+E0368,Engineering,Software Engineer,2.9,G2,28,6,9.7,13.9,B1,5.3,2.8,3.4,0.36,1.0,1,Stayed,Promoted,0,False
+E0369,Sales,Account Manager,6.2,G2,34,6,6.2,14.6,B2,6.9,2.3,2.8,0.7,0.0,1,Left,Not Promoted,1,False
+E0370,Engineering,QA Engineer,6.1,G2,40,5,0.0,15.2,B2,7.6,3.4,4.2,0.51,1.0,0,Stayed,Promoted,0,False
+E0371,Engineering,Data Analyst,8.6,G2,30,6,21.1,11.7,B2,11.1,3.2,2.7,0.88,1.0,0,Stayed,Promoted,0,False
+E0372,Engineering,Data Analyst,5.7,G1,37,4,9.0,14.0,B1,2.5,3.6,2.2,0.86,,0,Stayed,Unknown,0,False
+E0373,Finance,Financial Analyst,5.0,G2,33,4,12.8,5.8,B4,6.2,4.0,2.3,0.8,1.0,1,Stayed,Promoted,0,False
+E0374,Finance,Finance Manager,4.4,G5,24,2,10.2,7.8,B3,5.3,3.5,4.6,0.84,,0,Stayed,Unknown,0,False
+E0375,Engineering,Team Lead,5.1,G5,31,1,11.6,5.3,B4,0.0,2.5,3.0,0.97,0.0,0,Stayed,Not Promoted,0,False
+E0376,Customer Support,Support Specialist,2.4,G2,21,6,19.0,11.3,B2,1.2,4.2,2.3,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0377,Operations,Operations Manager,1.7,G3,27,1,10.6,18.9,B4,5.2,3.6,4.1,0.82,0.0,0,Stayed,Not Promoted,0,False
+E0378,Operations,Operations Manager,1.5,G2,36,5,11.8,11.5,B3,1.2,2.8,4.0,0.4,1.0,1,Stayed,Promoted,0,False
+E0379,Finance,Finance Manager,1.9,G1,28,7,5.5,16.5,B1,5.9,2.3,3.4,0.45,0.0,0,Stayed,Not Promoted,0,False
+E0380,Operations,Operations Manager,2.4,G2,30,2,2.1,10.8,B5,8.6,3.1,3.0,0.45,0.0,1,Stayed,Not Promoted,0,False
+E0381,Marketing,Marketing Manager,2.6,G2,29,8,9.1,11.8,B3,4.4,3.3,3.8,0.34,0.0,0,Stayed,Not Promoted,0,False
+E0382,Engineering,Data Analyst,6.7,G2,34,3,8.9,11.3,B3,10.3,3.8,2.8,0.39,0.0,0,Stayed,Not Promoted,0,False
+E0383,Marketing,Marketing Executive,3.2,G3,34,2,4.4,12.2,B4,7.8,3.8,1.0,0.23,0.0,0,Stayed,Not Promoted,0,False
+E0384,Engineering,Team Lead,10.4,G5,42,5,11.2,19.7,B2,9.0,3.4,3.3,0.17,1.0,0,Left,Promoted,1,False
+E0385,Engineering,Team Lead,2.9,G3,31,2,6.4,12.3,B4,5.6,4.3,3.3,0.75,0.0,0,Stayed,Not Promoted,0,False
+E0386,Engineering,Software Engineer,5.3,G4,37,3,6.6,9.7,B4,7.4,2.0,3.5,0.19,1.0,0,Stayed,Promoted,0,False
+E0387,Finance,Finance Manager,6.0,G1,34,1,0.0,16.2,B1,9.2,3.1,3.6,0.23,0.0,0,Stayed,Not Promoted,0,False
+E0388,Finance,Finance Manager,3.2,G1,40,1,3.1,14.1,B4,8.5,3.0,4.8,0.73,0.0,0,Stayed,Not Promoted,0,False
+E0389,Operations,Operations Analyst,2.7,G2,28,1,15.4,18.3,B1,3.5,5.0,3.5,0.47,0.0,0,Stayed,Not Promoted,0,False
+E0390,Engineering,Data Analyst,7.3,G1,41,2,6.5,14.8,B1,4.5,4.1,2.4,0.76,1.0,1,Stayed,Promoted,0,False
+E0391,Marketing,Marketing Manager,4.6,G3,25,2,2.0,9.7,B2,8.8,3.4,3.4,0.41,1.0,0,Stayed,Promoted,0,False
+E0392,Engineering,Team Lead,0.8,G1,30,4,15.1,20.6,B3,9.1,3.8,4.0,0.44,0.0,0,Stayed,Not Promoted,0,False
+E0393,Operations,Operations Associate,5.2,G2,23,2,9.7,13.4,B2,11.9,4.7,4.5,0.5,1.0,0,Stayed,Promoted,0,False
+E0394,Finance,Accountant,11.7,G3,33,1,17.6,12.8,B1,7.2,2.7,2.7,0.76,1.0,0,Stayed,Promoted,0,False
+E0395,Operations,Operations Analyst,4.0,G3,35,3,12.1,15.7,B3,12.0,5.0,4.3,0.63,0.0,0,Stayed,Not Promoted,0,False
+E0396,Sales,Sales Manager,3.0,G3,38,3,5.7,9.2,B2,7.2,4.1,4.1,0.82,0.0,0,Stayed,Not Promoted,0,False
+E0397,Marketing,Marketing Executive,9.2,G1,40,2,2.5,10.4,B2,5.9,2.2,3.8,0.35,1.0,0,Stayed,Promoted,0,False
+E0398,Sales,Account Manager,6.8,G1,39,8,10.4,8.9,B2,6.5,3.2,3.4,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0399,Finance,Financial Analyst,2.4,G5,21,6,7.6,7.1,B4,12.0,3.8,3.8,0.33,1.0,0,Stayed,Promoted,0,False
+E0400,Engineering,Data Analyst,10.1,G4,36,2,1.6,21.0,B4,5.2,4.6,5.0,0.69,1.0,0,Stayed,Promoted,0,False
+E0401,Sales,Sales Manager,7.6,G2,36,3,0.4,12.6,B3,4.2,4.0,1.4,0.76,0.0,1,Stayed,Not Promoted,0,False
+E0402,Marketing,Marketing Executive,2.8,G2,28,5,0.0,9.6,B5,3.7,2.4,4.3,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0403,Finance,Financial Analyst,8.3,G4,31,3,15.8,8.7,B3,5.2,4.0,3.5,0.43,0.0,0,Stayed,Not Promoted,0,False
+E0404,Operations,Operations Analyst,2.8,G4,22,6,12.7,18.7,B3,1.9,2.6,3.7,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0405,Finance,Accountant,4.2,G3,34,4,120.0,9.2,B1,8.5,1.7,3.8,0.71,1.0,1,Stayed,Promoted,0,True
+E0406,Operations,Operations Analyst,1.5,G3,27,3,8.1,20.6,B4,3.1,2.9,3.4,0.91,0.0,0,Stayed,Not Promoted,0,False
+E0407,Engineering,QA Engineer,6.0,G2,35,7,12.6,11.4,B3,9.1,5.0,3.4,0.46,0.0,0,Stayed,Not Promoted,0,False
+E0408,Sales,Account Manager,7.0,G2,34,6,0.0,20.1,B1,1.9,5.0,3.8,0.24,0.0,0,Stayed,Not Promoted,0,False
+E0409,Operations,Operations Manager,7.5,G3,37,4,11.3,15.3,B2,8.1,3.5,3.2,0.78,1.0,1,Stayed,Promoted,0,False
+E0410,Marketing,Marketing Manager,1.7,G1,28,5,6.2,16.5,B4,4.9,1.8,3.2,0.2,0.0,0,Stayed,Not Promoted,0,False
+E0411,Operations,Operations Analyst,6.0,G2,30,3,14.5,19.2,B3,5.3,3.3,4.2,0.68,1.0,1,Left,Promoted,1,False
+E0412,Customer Support,Support Specialist,8.2,G2,41,7,15.9,19.4,B1,8.3,3.7,2.3,0.67,0.0,0,Left,Not Promoted,1,False
+E0413,Sales,Sales Manager,2.5,G3,23,4,6.3,25.2,B3,10.6,4.5,3.8,0.46,,0,Stayed,Unknown,0,False
+E0414,Marketing,Marketing Manager,4.0,G4,33,3,16.2,13.5,B1,6.0,3.8,2.5,0.86,0.0,0,Stayed,Not Promoted,0,False
+E0415,Engineering,Software Engineer,3.8,G3,29,3,0.5,16.9,B1,3.5,3.4,4.3,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0416,Engineering,Software Engineer,2.8,G5,29,5,0.0,19.0,B3,10.7,3.9,4.5,0.58,1.0,0,Stayed,Promoted,0,False
+E0417,HR,HR Executive,2.9,G2,31,4,9.9,14.9,B2,5.3,3.8,2.7,0.21,1.0,0,Stayed,Promoted,0,False
+E0418,HR,HR Manager,8.9,G3,42,3,0.9,12.8,B2,8.7,3.5,4.5,0.76,1.0,1,Stayed,Promoted,0,False
+E0419,Sales,Sales Executive,3.8,G3,31,2,7.2,15.2,B1,10.3,4.0,3.4,0.58,1.0,1,Stayed,Promoted,0,False
+E0420,Customer Support,Support Specialist,3.6,G2,27,1,6.2,16.9,B3,8.1,4.3,1.8,0.51,1.0,1,Stayed,Promoted,0,False
+E0421,Operations,Operations Manager,3.0,G1,21,6,0.0,10.4,B3,9.0,3.0,4.2,0.43,,0,Stayed,Unknown,0,False
+E0422,Engineering,QA Engineer,1.4,G4,27,2,10.2,12.1,B3,12.6,3.3,2.8,0.49,0.0,0,Stayed,Not Promoted,0,False
+E0423,Operations,Operations Analyst,9.3,G5,39,6,5.3,11.7,B3,12.9,3.8,4.2,0.68,1.0,0,Stayed,Promoted,0,False
+E0424,Operations,Operations Associate,6.2,G4,36,6,120.0,3.0,B4,6.7,3.7,3.3,0.79,0.0,0,Left,Not Promoted,1,True
+E0425,Customer Support,Support Agent,4.9,G2,27,4,17.2,5.4,B2,9.9,4.9,3.6,0.54,0.0,0,Stayed,Not Promoted,0,False
+E0426,Customer Support,Support Agent,5.9,G4,38,1,5.7,21.4,B3,6.2,3.3,2.6,0.48,1.0,0,Stayed,Promoted,0,False
+E0427,Customer Support,Support Specialist,4.6,G3,24,4,8.5,21.0,B4,0.3,5.0,2.3,0.76,1.0,1,Stayed,Promoted,0,False
+E0428,Engineering,Data Analyst,8.4,G5,45,1,11.1,14.4,B2,6.2,4.2,3.3,0.69,1.0,0,Stayed,Promoted,0,False
+E0429,Engineering,Team Lead,8.0,G4,46,7,15.9,18.4,B4,11.6,5.0,3.0,0.52,1.0,0,Stayed,Promoted,0,False
+E0430,Customer Support,Support Specialist,5.2,G1,29,1,0.0,29.8,B5,8.5,2.8,2.8,0.53,0.0,1,Stayed,Not Promoted,0,False
+E0431,HR,HR Executive,3.7,G2,25,6,0.0,16.4,B3,3.6,3.3,2.9,0.75,1.0,0,Stayed,Promoted,0,False
+E0432,Marketing,Marketing Executive,1.3,G5,32,4,3.0,9.6,B3,7.9,3.3,4.9,0.76,0.0,0,Left,Not Promoted,1,False
+E0433,Sales,Sales Executive,7.5,G4,32,4,11.6,17.9,B5,11.4,3.6,4.5,0.7,0.0,0,Stayed,Not Promoted,0,False
+E0434,Engineering,Team Lead,1.6,G3,29,2,10.1,12.7,B2,6.4,2.3,3.4,0.86,0.0,0,Stayed,Not Promoted,0,False
+E0435,Operations,Operations Analyst,1.7,G1,22,4,9.5,12.5,B3,6.7,3.2,3.0,0.62,0.0,0,Stayed,Not Promoted,0,False
+E0436,Marketing,Marketing Executive,5.3,G3,23,3,12.9,22.4,B1,11.2,5.0,2.4,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0437,Operations,Operations Analyst,4.1,G5,34,4,15.5,19.5,B3,11.2,4.4,3.7,0.36,0.0,0,Stayed,Not Promoted,0,False
+E0438,Engineering,Team Lead,4.9,G5,32,6,10.7,21.3,B3,5.0,3.1,4.5,0.5,1.0,0,Stayed,Promoted,0,False
+E0439,Finance,Accountant,4.1,G1,21,8,12.8,15.0,B4,0.5,3.1,2.4,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0440,Customer Support,Support Agent,2.6,G2,32,2,6.8,12.1,B1,7.3,4.3,3.2,0.46,1.0,0,Stayed,Promoted,0,False
+E0441,Operations,Operations Analyst,3.0,G2,32,2,9.6,12.1,B5,11.4,2.5,3.8,0.72,0.0,0,Stayed,Not Promoted,0,False
+E0442,Operations,Operations Manager,1.0,G1,30,1,2.4,13.8,B1,4.0,2.4,2.8,0.44,0.0,0,Stayed,Not Promoted,0,False
+E0443,Operations,Operations Manager,4.4,G5,27,7,13.8,13.3,B2,5.7,3.7,3.4,0.42,0.0,0,Stayed,Not Promoted,0,False
+E0444,Operations,Operations Associate,4.6,G1,39,4,15.8,15.1,B2,3.9,2.4,3.1,0.85,,0,Stayed,Unknown,0,False
+E0445,Sales,Account Manager,11.0,G2,42,4,26.7,12.7,B4,9.1,4.2,3.4,0.74,0.0,0,Stayed,Not Promoted,0,True
+E0446,Engineering,Data Analyst,3.2,G2,31,2,0.8,8.6,B2,4.9,3.0,4.6,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0447,Operations,Operations Manager,3.7,G2,38,11,0.0,13.2,B3,8.9,4.6,3.3,0.87,0.0,0,Stayed,Not Promoted,0,False
+E0448,Engineering,Software Engineer,3.4,G3,30,2,14.9,16.1,B2,5.7,2.4,3.1,0.77,0.0,0,Left,Not Promoted,1,False
+E0449,Engineering,Team Lead,5.4,G3,37,3,8.5,14.6,B4,6.1,3.0,2.8,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0450,Sales,Sales Manager,3.5,G1,36,2,0.0,9.3,B2,4.8,4.0,2.7,0.38,0.0,0,Stayed,Not Promoted,0,False
+E0451,Marketing,Content Specialist,4.1,G2,23,4,12.0,17.4,B2,7.7,3.1,2.7,0.88,0.0,1,Stayed,Not Promoted,0,False
+E0452,Marketing,Marketing Manager,6.5,G2,39,5,11.0,16.4,B4,6.6,5.0,1.0,0.5,0.0,0,Left,Not Promoted,1,False
+E0453,HR,Recruiter,3.0,G2,33,5,11.7,13.9,B2,9.7,4.6,3.7,0.57,,0,Stayed,Unknown,0,False
+E0454,Marketing,Marketing Manager,4.9,G2,39,3,0.0,9.8,B3,12.4,3.6,3.9,0.93,0.0,0,Stayed,Not Promoted,0,False
+E0455,HR,Recruiter,6.0,G2,29,3,6.9,12.4,B4,4.8,3.5,2.9,0.76,1.0,0,Stayed,Promoted,0,False
+E0456,HR,Recruiter,2.7,G3,38,7,2.4,13.6,B1,6.5,2.8,5.0,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0457,Operations,Operations Analyst,15.5,G2,48,7,3.1,15.9,B1,4.0,1.9,3.6,0.54,0.0,0,Stayed,Not Promoted,0,False
+E0458,Engineering,QA Engineer,4.9,G4,23,3,10.0,21.3,B4,5.5,2.9,3.7,0.73,1.0,0,Stayed,Promoted,0,False
+E0459,HR,Recruiter,1.2,G2,40,4,7.4,12.2,B5,9.1,2.6,2.0,0.97,0.0,0,Left,Not Promoted,1,False
+E0460,Engineering,Software Engineer,2.0,G1,22,5,6.8,10.4,B3,8.3,3.7,3.4,0.44,0.0,1,Stayed,Not Promoted,0,False
+E0461,Sales,Sales Manager,8.8,G2,31,5,11.1,11.5,B5,9.5,3.1,3.1,0.5,1.0,0,Stayed,Promoted,0,False
+E0462,Engineering,Software Engineer,9.2,G4,43,5,9.1,14.5,B2,6.4,2.9,4.5,0.32,0.0,0,Stayed,Not Promoted,0,False
+E0463,Sales,Account Manager,1.3,G2,21,3,4.9,18.0,B3,0.3,3.9,4.1,0.28,0.0,0,Stayed,Not Promoted,0,False
+E0464,Finance,Accountant,1.1,G1,24,2,10.0,17.6,B3,7.6,3.9,2.9,0.89,0.0,0,Stayed,Not Promoted,0,False
+E0465,Customer Support,Support Lead,0.4,G1,32,2,2.0,19.8,B1,7.3,4.4,2.4,0.84,0.0,0,Left,Not Promoted,1,False
+E0466,Engineering,Team Lead,5.2,G4,30,5,5.7,16.7,B2,12.5,3.2,5.0,0.27,,0,Stayed,Unknown,0,False
+E0467,Engineering,QA Engineer,7.4,G1,33,4,6.3,5.2,B3,8.4,2.3,4.3,0.88,1.0,0,Stayed,Promoted,0,False
+E0468,Finance,Finance Manager,4.2,G1,26,2,6.1,15.2,B2,4.5,4.6,2.3,0.36,0.0,0,Stayed,Not Promoted,0,False
+E0469,Finance,Finance Manager,2.8,G4,27,3,12.1,10.0,B1,4.1,3.1,3.5,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0470,HR,HR Manager,5.0,G2,30,5,9.0,15.2,B2,8.5,3.8,3.3,0.53,,0,Left,Unknown,1,False
+E0471,Customer Support,Support Specialist,1.7,G1,37,5,11.0,15.1,B3,6.3,4.7,2.3,0.48,1.0,0,Stayed,Promoted,0,False
+E0472,Customer Support,Support Specialist,4.3,G3,41,6,12.3,13.8,B4,11.3,4.4,3.4,0.68,0.0,1,Stayed,Not Promoted,0,False
+E0473,Operations,Operations Analyst,2.9,G4,31,3,8.5,22.4,B3,3.0,3.5,4.2,0.86,0.0,1,Stayed,Not Promoted,0,False
+E0474,Customer Support,Support Lead,2.8,G2,24,3,11.6,19.0,B2,8.7,4.3,2.8,0.54,0.0,0,Left,Not Promoted,1,False
+E0475,Engineering,Data Analyst,6.4,G3,38,5,1.7,16.4,B1,7.9,2.4,4.6,0.49,0.0,0,Stayed,Not Promoted,0,False
+E0476,Engineering,Data Analyst,5.6,G4,37,2,5.7,14.8,B2,7.5,3.5,2.8,0.3,1.0,0,Stayed,Promoted,0,False
+E0477,Engineering,Software Engineer,3.0,G4,34,4,0.0,17.2,B3,6.0,2.4,3.9,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0478,Sales,Sales Manager,3.4,G3,29,3,18.1,18.7,B3,8.4,3.5,3.0,0.84,1.0,0,Stayed,Promoted,0,False
+E0479,Operations,Operations Analyst,1.9,G2,25,4,0.8,13.4,B3,8.0,4.7,4.5,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0480,Marketing,Content Specialist,4.2,G2,32,6,6.0,9.7,B1,7.3,3.5,3.2,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0481,Finance,Finance Manager,1.9,G1,31,0,12.2,16.3,B1,10.1,4.7,3.7,0.47,0.0,0,Stayed,Not Promoted,0,False
+E0482,Marketing,Content Specialist,9.9,G1,35,6,4.9,7.4,B4,6.7,4.1,4.3,0.19,1.0,0,Stayed,Promoted,0,False
+E0483,Finance,Financial Analyst,3.8,G4,36,5,10.0,12.5,B2,4.1,1.0,3.5,0.74,,0,Stayed,Unknown,0,False
+E0484,Sales,Sales Manager,5.4,G1,28,6,9.7,3.5,B2,6.3,4.5,3.9,0.98,0.0,0,Stayed,Not Promoted,0,False
+E0485,Finance,Financial Analyst,1.1,G3,29,6,9.4,7.2,B1,1.6,3.8,4.3,0.53,0.0,0,Stayed,Not Promoted,0,False
+E0486,Engineering,Team Lead,4.5,G3,25,2,20.2,16.9,B4,7.4,3.4,3.5,0.73,1.0,0,Stayed,Promoted,0,False
+E0487,Engineering,Data Analyst,3.2,G4,33,2,0.0,13.5,B2,7.1,4.0,5.0,0.82,0.0,0,Stayed,Not Promoted,0,False
+E0488,Operations,Operations Associate,6.3,G2,37,2,7.5,16.9,B4,8.6,2.2,3.4,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0489,Sales,Account Manager,8.9,G4,38,3,0.1,17.8,B1,5.9,3.6,4.6,0.67,0.0,1,Stayed,Not Promoted,0,False
+E0490,Sales,Account Manager,2.9,G2,34,6,8.9,7.7,B4,5.8,4.3,3.5,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0491,HR,Recruiter,3.3,G3,26,1,8.2,21.8,B2,8.6,2.1,2.2,0.72,1.0,0,Stayed,Promoted,0,False
+E0492,Sales,Account Manager,7.2,G2,33,3,10.9,26.6,B2,9.3,2.8,4.5,0.93,1.0,0,Stayed,Promoted,0,False
+E0493,Customer Support,Support Agent,4.0,G1,29,5,6.4,19.9,B4,8.2,4.2,3.4,0.84,0.0,0,Left,Not Promoted,1,False
+E0494,Engineering,Software Engineer,4.5,G1,38,3,18.3,23.6,B2,10.5,3.5,3.4,0.44,1.0,0,Stayed,Promoted,0,False
+E0495,Sales,Sales Manager,4.7,G2,36,7,11.0,16.8,B4,7.6,3.9,3.2,0.59,0.0,1,Stayed,Not Promoted,0,False
+E0496,Sales,Sales Executive,5.0,G5,31,2,7.8,15.9,B3,9.3,2.5,2.8,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0497,Finance,Finance Manager,6.7,G3,35,5,7.3,8.6,B3,6.8,3.4,2.7,0.29,0.0,1,Stayed,Not Promoted,0,False
+E0498,HR,HR Manager,3.4,G2,31,4,12.9,17.7,B2,9.6,3.2,4.2,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0499,Marketing,Marketing Manager,8.5,G4,42,1,0.0,14.3,B5,7.2,3.8,3.1,0.23,0.0,0,Stayed,Not Promoted,0,False
+E0500,Finance,Financial Analyst,7.3,G4,40,4,5.3,16.3,B2,6.0,3.7,3.3,0.71,0.0,0,Stayed,Not Promoted,0,False
+E0501,Sales,Sales Executive,1.7,G2,27,2,10.8,7.1,B2,4.2,3.1,3.7,0.73,0.0,0,Stayed,Not Promoted,0,False
+E0502,HR,Recruiter,1.7,G2,23,2,12.5,19.8,B3,12.5,3.7,4.1,0.73,0.0,0,Stayed,Not Promoted,0,False
+E0503,Finance,Financial Analyst,3.6,G2,39,8,14.6,12.5,B2,10.2,2.7,2.9,0.79,0.0,0,Stayed,Not Promoted,0,False
+E0504,Engineering,QA Engineer,3.3,G2,24,7,5.9,17.2,B3,4.6,4.6,3.9,0.26,1.0,1,Stayed,Promoted,0,False
+E0505,Customer Support,Support Specialist,2.4,G2,30,4,13.0,10.0,B4,9.3,2.3,3.6,0.79,1.0,0,Stayed,Promoted,0,False
+E0506,Finance,Accountant,2.9,G3,25,4,12.4,11.1,B5,6.9,3.0,3.5,0.64,0.0,0,Stayed,Not Promoted,0,False
+E0507,Engineering,Software Engineer,1.6,G4,29,4,4.9,22.0,B4,3.9,2.6,3.4,0.55,0.0,1,Stayed,Not Promoted,0,False
+E0508,Engineering,QA Engineer,2.2,G4,27,5,9.1,12.7,B1,6.3,3.8,4.4,0.87,0.0,0,Stayed,Not Promoted,0,False
+E0509,HR,HR Manager,3.7,G3,28,3,4.7,15.0,B2,7.2,3.6,3.6,0.94,1.0,0,Stayed,Promoted,0,False
+E0510,Engineering,QA Engineer,3.9,G3,33,3,5.2,16.5,B3,7.7,2.9,3.6,0.3,0.0,0,Stayed,Not Promoted,0,False
+E0511,Marketing,Content Specialist,2.6,G2,24,2,11.3,12.0,B2,8.8,3.7,3.2,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0512,Marketing,Marketing Executive,4.3,G1,27,1,5.9,20.2,B1,6.8,3.5,2.5,0.97,0.0,1,Stayed,Not Promoted,0,False
+E0513,Engineering,QA Engineer,3.6,G1,30,6,11.1,11.0,B3,9.4,4.9,1.9,0.8,1.0,0,Stayed,Promoted,0,False
+E0514,Operations,Operations Analyst,2.5,G3,28,4,5.8,22.1,B3,5.7,4.2,4.2,0.73,1.0,0,Stayed,Promoted,0,False
+E0515,Engineering,Software Engineer,5.9,G2,39,6,0.0,17.5,B2,4.9,4.0,2.9,0.84,1.0,0,Stayed,Promoted,0,False
+E0516,Operations,Operations Associate,2.1,G3,31,1,1.0,9.7,B4,8.6,3.1,2.1,0.5,1.0,0,Stayed,Promoted,0,False
+E0517,Finance,Accountant,7.8,G4,33,1,4.2,19.8,B1,5.3,4.3,3.8,0.31,1.0,0,Stayed,Promoted,0,False
+E0518,Finance,Financial Analyst,2.4,G1,34,2,1.4,9.3,B5,8.8,1.0,3.6,0.28,0.0,0,Stayed,Not Promoted,0,False
+E0519,Engineering,Software Engineer,10.7,G5,36,6,11.4,17.0,B3,3.8,2.5,1.8,0.54,1.0,0,Stayed,Promoted,0,False
+E0520,Engineering,Data Analyst,11.9,G4,33,3,12.0,14.4,B3,10.3,3.3,2.6,0.75,1.0,0,Stayed,Promoted,0,False
+E0521,Engineering,Team Lead,5.8,G1,40,4,7.7,15.9,B1,5.3,2.7,4.2,0.54,1.0,0,Left,Promoted,1,False
+E0522,Operations,Operations Analyst,5.6,G3,33,2,5.0,20.1,B3,8.6,2.9,3.2,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0523,Finance,Finance Manager,1.4,G2,31,6,2.8,18.4,B4,8.8,3.4,2.3,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0524,HR,HR Manager,6.4,G2,34,3,0.0,11.5,B2,11.9,4.0,4.4,0.54,0.0,1,Stayed,Not Promoted,0,False
+E0525,Finance,Finance Manager,7.6,G4,29,4,6.3,14.0,B2,6.9,3.5,3.4,0.9,0.0,0,Stayed,Not Promoted,0,False
+E0526,Operations,Operations Associate,3.3,G1,24,5,14.2,17.3,B2,9.0,3.1,2.8,0.44,0.0,1,Left,Not Promoted,1,False
+E0527,Sales,Sales Manager,0.4,G1,25,1,8.0,11.2,B5,3.7,3.7,4.6,0.32,0.0,0,Left,Not Promoted,1,False
+E0528,Finance,Finance Manager,2.9,G2,32,7,8.2,20.4,B2,7.1,3.3,4.0,0.67,0.0,0,Stayed,Not Promoted,0,False
+E0529,Sales,Sales Manager,4.0,G1,33,5,16.2,11.9,B5,9.0,3.4,4.4,0.65,1.0,0,Left,Promoted,1,False
+E0530,Sales,Sales Manager,4.5,G3,30,5,6.8,19.9,B2,8.3,4.1,3.4,0.73,0.0,0,Stayed,Not Promoted,0,False
+E0531,HR,HR Manager,5.8,G2,32,5,4.2,13.4,B2,13.2,3.9,4.3,0.64,1.0,1,Stayed,Promoted,0,False
+E0532,Sales,Sales Manager,7.4,G1,43,4,11.2,21.0,B3,7.7,3.5,3.8,0.58,1.0,0,Stayed,Promoted,0,False
+E0533,Finance,Accountant,4.3,G3,21,4,9.4,16.0,B3,6.9,4.1,4.2,0.65,0.0,0,Left,Not Promoted,1,False
+E0534,Operations,Operations Associate,2.0,G2,35,2,5.6,24.0,B5,5.4,3.8,3.4,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0535,Operations,Operations Associate,2.4,G1,26,3,15.4,20.4,B4,9.3,4.4,3.1,0.31,0.0,0,Stayed,Not Promoted,0,False
+E0536,Engineering,Data Analyst,5.6,G3,44,2,14.5,12.4,B4,4.8,2.7,3.4,0.45,1.0,1,Stayed,Promoted,0,False
+E0537,HR,HR Manager,2.5,G2,29,6,8.1,15.8,B1,5.4,3.3,3.8,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0538,Finance,Finance Manager,2.9,G1,26,6,3.6,22.3,B3,3.5,3.7,4.0,0.97,0.0,0,Stayed,Not Promoted,0,False
+E0539,Operations,Operations Associate,3.4,G2,32,2,11.7,10.9,B4,9.8,5.0,5.0,0.73,1.0,0,Stayed,Promoted,0,False
+E0540,Engineering,Team Lead,11.5,G2,39,6,9.0,17.8,B2,10.2,4.8,2.6,0.07,1.0,1,Stayed,Promoted,0,False
+E0541,Engineering,Data Analyst,3.4,G5,34,1,4.6,9.4,B2,7.5,3.8,4.8,0.69,1.0,0,Stayed,Promoted,0,False
+E0542,Finance,Financial Analyst,11.1,G2,37,2,3.9,11.5,B5,3.8,4.8,3.1,0.7,1.0,0,Stayed,Promoted,0,False
+E0543,Customer Support,Support Specialist,1.8,G4,35,2,9.5,7.5,B2,7.6,2.5,3.3,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0544,Sales,Sales Executive,4.5,G2,39,2,8.8,14.3,B5,8.0,2.9,3.6,0.88,1.0,0,Stayed,Promoted,0,False
+E0545,Customer Support,Support Agent,10.2,G2,34,3,12.3,14.1,B3,6.3,3.9,2.4,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0546,Engineering,Data Analyst,5.4,G5,30,5,6.8,11.7,B3,5.4,4.3,3.5,0.38,1.0,0,Stayed,Promoted,0,False
+E0547,Finance,Accountant,10.2,G3,43,5,22.1,17.0,B1,2.6,2.9,3.0,0.52,1.0,0,Stayed,Promoted,0,False
+E0548,Engineering,Data Analyst,3.5,G2,25,5,5.9,4.5,B1,13.0,4.5,3.9,0.74,1.0,0,Stayed,Promoted,0,False
+E0549,Operations,Operations Manager,2.3,G4,29,6,1.8,21.6,B1,8.9,3.5,4.7,0.77,1.0,0,Stayed,Promoted,0,False
+E0550,HR,HR Executive,3.1,G1,23,4,12.4,14.1,B5,8.9,4.3,4.1,0.63,0.0,0,Stayed,Not Promoted,0,False
+E0551,Marketing,Content Specialist,6.5,G4,28,6,20.7,19.5,B5,3.4,4.8,4.4,0.73,1.0,0,Stayed,Promoted,0,False
+E0552,Sales,Sales Manager,6.5,G1,27,2,17.0,18.3,B5,4.7,5.0,3.0,0.65,1.0,0,Stayed,Promoted,0,False
+E0553,Operations,Operations Analyst,1.9,G2,26,2,9.0,19.3,B4,5.8,4.0,3.6,0.46,0.0,1,Stayed,Not Promoted,0,False
+E0554,Finance,Financial Analyst,3.8,G5,28,6,10.7,15.3,B1,7.0,5.0,4.0,0.45,0.0,1,Stayed,Not Promoted,0,False
+E0555,Finance,Finance Manager,2.8,G1,26,6,0.0,14.1,B3,4.8,3.7,3.6,0.47,,1,Stayed,Unknown,0,False
+E0556,Customer Support,Support Agent,2.8,G4,21,6,6.8,3.2,B2,8.9,1.8,2.7,0.44,0.0,0,Stayed,Not Promoted,0,False
+E0557,Customer Support,Support Specialist,3.4,G1,35,6,18.4,24.2,B3,10.5,2.9,4.8,0.3,0.0,0,Left,Not Promoted,1,False
+E0558,Finance,Accountant,2.4,G3,33,6,17.3,12.9,B3,3.2,3.8,2.7,0.57,0.0,1,Left,Not Promoted,1,False
+E0559,Customer Support,Support Specialist,6.7,G3,33,5,17.3,13.4,B3,6.8,3.9,3.8,0.77,1.0,0,Stayed,Promoted,0,False
+E0560,Engineering,Team Lead,5.3,G1,37,8,10.2,11.6,B1,8.3,3.6,3.7,0.58,1.0,0,Stayed,Promoted,0,False
+E0561,Finance,Finance Manager,1.9,G1,34,4,6.0,19.1,B2,6.5,3.7,3.4,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0562,Sales,Sales Executive,0.9,G1,32,5,11.4,14.6,B2,2.6,1.9,3.3,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0563,Marketing,Content Specialist,4.5,G3,33,6,14.2,19.3,B4,10.8,3.8,3.4,0.56,1.0,0,Stayed,Promoted,0,False
+E0564,Marketing,Marketing Manager,7.9,G3,36,4,11.6,15.8,B4,3.8,3.0,2.7,0.57,,0,Left,Unknown,1,False
+E0565,Finance,Accountant,3.3,G5,25,1,9.2,7.8,B4,10.1,5.0,4.5,0.83,1.0,0,Stayed,Promoted,0,False
+E0566,Sales,Sales Manager,6.3,G3,33,3,12.5,24.4,B3,8.3,3.3,4.1,0.6,1.0,0,Stayed,Promoted,0,False
+E0567,Operations,Operations Associate,2.8,G2,27,4,7.2,16.3,B5,8.1,3.7,3.5,0.95,1.0,0,Stayed,Promoted,0,False
+E0568,Engineering,Software Engineer,8.7,G4,35,8,11.6,18.2,B3,8.1,2.9,3.9,0.45,1.0,1,Stayed,Promoted,0,False
+E0569,Sales,Sales Manager,2.1,G4,28,3,22.9,15.3,B3,3.8,3.8,3.9,0.83,0.0,0,Stayed,Not Promoted,0,False
+E0570,Operations,Operations Analyst,9.0,G4,36,3,11.3,12.1,B4,5.6,2.9,1.5,0.23,1.0,0,Stayed,Promoted,0,False
+E0571,Marketing,Marketing Executive,12.9,G1,47,5,3.0,7.0,B2,0.0,3.1,3.9,0.56,1.0,0,Stayed,Promoted,0,False
+E0572,Engineering,Software Engineer,2.1,G4,21,9,12.5,16.2,B3,12.4,3.9,3.6,0.47,1.0,0,Stayed,Promoted,0,False
+E0573,Engineering,Team Lead,2.0,G3,25,4,9.6,4.2,B2,8.9,2.8,2.6,0.47,0.0,0,Left,Not Promoted,1,False
+E0574,Marketing,Marketing Executive,6.3,G5,38,4,3.9,14.5,B4,7.3,3.2,4.5,0.18,0.0,1,Stayed,Not Promoted,0,False
+E0575,Sales,Sales Executive,2.9,G4,28,1,0.0,8.7,B3,3.5,2.7,3.2,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0576,Customer Support,Support Agent,5.4,G4,36,4,8.9,11.7,B3,7.1,4.0,2.4,0.68,1.0,0,Stayed,Promoted,0,False
+E0577,Operations,Operations Analyst,1.4,G1,22,6,10.4,10.3,B2,8.6,3.2,4.5,0.43,0.0,0,Stayed,Not Promoted,0,False
+E0578,Engineering,Data Analyst,0.9,G3,28,2,7.5,14.4,B5,8.6,3.5,2.4,0.7,0.0,0,Left,Not Promoted,1,False
+E0579,Sales,Sales Manager,3.6,G2,40,6,11.0,17.5,B3,7.5,4.3,3.3,0.88,1.0,0,Stayed,Promoted,0,False
+E0580,Engineering,QA Engineer,2.4,G4,24,3,18.0,19.8,B2,9.8,1.8,2.3,0.51,0.0,0,Left,Not Promoted,1,False
+E0581,Finance,Accountant,2.1,G4,28,4,15.5,14.0,B3,8.7,3.4,4.0,0.79,1.0,1,Stayed,Promoted,0,False
+E0582,Operations,Operations Associate,1.0,G1,30,1,11.9,5.8,B2,0.0,3.9,4.2,0.64,1.0,0,Stayed,Promoted,0,False
+E0583,Finance,Finance Manager,10.4,G1,24,3,13.7,21.5,B3,6.6,3.9,4.1,0.36,1.0,1,Stayed,Promoted,0,False
+E0584,Operations,Operations Associate,3.9,G1,32,4,0.0,20.7,B4,8.4,3.0,4.9,0.23,0.0,0,Stayed,Not Promoted,0,False
+E0585,Engineering,Software Engineer,3.8,G3,34,7,0.0,16.6,B2,2.0,4.4,3.7,0.12,0.0,0,Stayed,Not Promoted,0,False
+E0586,Engineering,Software Engineer,5.1,G5,31,5,15.1,12.9,B2,7.7,4.4,3.7,0.76,0.0,1,Stayed,Not Promoted,0,False
+E0587,Finance,Accountant,5.9,G2,38,4,6.5,16.9,B3,7.2,4.5,3.4,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0588,Sales,Account Manager,3.8,G2,37,4,5.6,15.3,B2,4.3,3.6,3.3,0.82,0.0,0,Left,Not Promoted,1,False
+E0589,Finance,Financial Analyst,2.9,G3,27,6,13.1,17.2,B4,9.3,4.0,3.3,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0590,Engineering,Team Lead,6.7,G4,33,6,1.4,9.5,B1,4.0,2.7,2.7,0.8,1.0,0,Stayed,Promoted,0,False
+E0591,Engineering,QA Engineer,2.8,G2,27,4,8.8,8.1,B2,9.1,4.0,2.0,0.68,0.0,1,Left,Not Promoted,1,False
+E0592,Marketing,Marketing Executive,6.4,G3,32,2,8.8,25.8,B3,4.8,3.0,4.6,0.71,1.0,0,Stayed,Promoted,0,False
+E0593,Sales,Account Manager,2.3,G4,31,7,3.3,14.0,B5,6.1,3.6,2.3,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0594,Customer Support,Support Agent,11.3,G2,48,1,4.3,12.9,B1,8.2,2.3,3.0,0.56,1.0,0,Stayed,Promoted,0,False
+E0595,Sales,Account Manager,7.3,G1,35,2,0.0,19.3,B2,7.0,3.4,3.3,0.56,1.0,0,Stayed,Promoted,0,False
+E0596,Engineering,QA Engineer,5.4,G1,31,5,19.1,17.4,B5,6.6,4.2,2.1,0.9,0.0,0,Stayed,Not Promoted,0,False
+E0597,Finance,Accountant,2.9,G2,25,4,3.5,15.4,B3,5.5,2.8,3.3,0.51,1.0,1,Stayed,Promoted,0,False
+E0598,Sales,Sales Manager,9.7,G1,41,2,8.2,7.6,B1,5.7,3.4,3.4,0.53,,0,Stayed,Unknown,0,False
+E0599,Marketing,Content Specialist,2.1,G2,25,6,11.7,14.9,B2,11.3,4.4,2.6,0.21,0.0,0,Stayed,Not Promoted,0,False
+E0600,Engineering,Team Lead,1.3,G2,25,3,14.6,12.8,B3,5.2,2.6,3.7,0.59,1.0,0,Stayed,Promoted,0,False
+E0601,Engineering,Software Engineer,7.7,G3,42,4,10.7,12.3,B4,6.1,3.4,3.5,0.38,1.0,1,Stayed,Promoted,0,False
+E0602,Marketing,Marketing Executive,7.4,G3,37,6,0.0,18.8,B4,6.1,3.0,2.3,0.87,1.0,0,Stayed,Promoted,0,False
+E0603,Engineering,QA Engineer,4.5,G3,34,7,18.4,20.6,B3,5.3,4.4,4.0,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0604,Finance,Financial Analyst,3.6,G2,34,6,0.0,20.2,B4,10.5,2.4,3.4,0.49,0.0,0,Stayed,Not Promoted,0,False
+E0605,Sales,Sales Executive,1.9,G5,32,7,6.4,11.1,B4,1.6,3.1,3.4,0.45,,0,Stayed,Unknown,0,False
+E0606,Customer Support,Support Specialist,2.7,G2,32,1,7.0,16.7,B3,7.8,3.5,1.9,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0607,HR,Recruiter,3.3,G1,37,3,11.6,13.4,B2,8.0,3.6,1.7,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0608,Operations,Operations Analyst,4.5,G3,34,8,0.1,26.5,B4,6.9,1.0,3.3,0.24,0.0,0,Stayed,Not Promoted,0,False
+E0609,Operations,Operations Associate,8.7,G3,43,4,16.3,12.3,B2,0.4,4.0,3.5,0.54,0.0,0,Stayed,Not Promoted,0,False
+E0610,Marketing,Marketing Executive,4.3,G1,26,5,0.0,7.0,B3,2.9,2.8,4.6,0.67,0.0,0,Stayed,Not Promoted,0,False
+E0611,Engineering,Data Analyst,9.1,G2,37,2,7.7,11.2,B5,10.7,3.7,3.9,0.52,1.0,0,Stayed,Promoted,0,False
+E0612,Operations,Operations Manager,6.0,G1,37,4,9.1,17.5,B4,5.4,1.8,2.5,0.51,0.0,0,Left,Not Promoted,1,False
+E0613,Sales,Sales Executive,3.1,G3,24,6,4.8,13.1,B3,9.2,2.0,3.1,0.63,0.0,0,Left,Not Promoted,1,False
+E0614,Customer Support,Support Agent,3.7,G3,30,6,9.1,15.3,B2,7.0,3.6,3.8,0.86,,1,Stayed,Unknown,0,False
+E0615,Engineering,Software Engineer,3.7,G1,35,5,6.2,9.6,B4,6.4,4.4,4.6,0.29,1.0,0,Stayed,Promoted,0,False
+E0616,Marketing,Marketing Manager,4.0,G2,34,2,11.3,3.0,B2,6.4,3.9,4.0,0.68,,0,Left,Unknown,1,False
+E0617,Operations,Operations Analyst,1.5,G5,27,4,8.7,11.9,B3,5.5,3.6,3.2,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0618,Sales,Sales Manager,1.5,G2,33,5,13.0,14.3,B2,8.2,4.0,2.9,0.38,0.0,0,Stayed,Not Promoted,0,False
+E0619,Engineering,QA Engineer,1.0,G4,32,1,8.5,18.6,B4,6.8,2.4,3.9,0.83,0.0,0,Left,Not Promoted,1,False
+E0620,Customer Support,Support Specialist,2.8,G4,37,5,8.0,7.4,B2,1.0,4.0,4.2,0.56,0.0,1,Stayed,Not Promoted,0,False
+E0621,Operations,Operations Associate,4.3,G1,39,6,0.9,11.3,B5,5.9,4.1,3.4,0.4,0.0,0,Stayed,Not Promoted,0,False
+E0622,Sales,Account Manager,1.7,G5,25,3,8.9,23.8,B3,0.4,3.5,2.7,0.26,0.0,0,Stayed,Not Promoted,0,False
+E0623,Engineering,Software Engineer,1.8,G3,21,1,0.0,17.5,B2,5.1,4.3,2.1,0.49,1.0,0,Stayed,Promoted,0,False
+E0624,Customer Support,Support Specialist,5.2,G2,29,2,10.4,5.0,B1,4.0,4.5,4.0,0.39,0.0,0,Stayed,Not Promoted,0,False
+E0625,Marketing,Marketing Executive,10.9,G3,42,5,6.7,13.9,B1,5.3,1.7,4.1,0.77,,0,Stayed,Unknown,0,False
+E0626,Engineering,QA Engineer,1.0,G3,30,3,7.5,12.8,B4,8.6,4.0,3.7,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0627,HR,HR Executive,6.9,G1,42,0,10.1,10.3,B2,7.9,4.6,3.3,0.52,0.0,1,Stayed,Not Promoted,0,False
+E0628,Engineering,Data Analyst,4.1,G1,26,9,20.4,10.8,B3,8.8,3.0,4.9,0.85,,0,Left,Unknown,1,False
+E0629,Engineering,Data Analyst,0.9,G1,21,3,14.9,19.1,B2,5.1,4.7,2.4,0.92,0.0,0,Stayed,Not Promoted,0,False
+E0630,Finance,Accountant,4.6,G4,28,8,13.7,2.6,B3,8.9,4.3,3.6,0.65,1.0,1,Stayed,Promoted,0,False
+E0631,Engineering,Software Engineer,8.2,G3,32,6,15.2,4.4,B4,8.4,3.9,3.5,0.91,1.0,0,Stayed,Promoted,0,False
+E0632,Customer Support,Support Specialist,5.6,G1,38,4,10.0,11.9,B4,6.4,3.7,3.6,0.44,1.0,1,Stayed,Promoted,0,False
+E0633,Engineering,QA Engineer,7.6,G2,33,6,4.0,23.5,B3,4.7,2.7,3.2,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0634,Marketing,Content Specialist,1.7,G2,33,5,5.1,15.3,B3,7.6,3.3,2.9,0.47,0.0,1,Stayed,Not Promoted,0,False
+E0635,HR,HR Manager,1.3,G2,21,0,1.2,2.3,B5,9.7,4.3,3.8,0.52,0.0,0,Left,Not Promoted,1,False
+E0636,Engineering,Software Engineer,3.8,G4,35,9,0.8,8.5,B2,8.0,3.7,2.3,0.51,,1,Stayed,Unknown,0,False
+E0637,Engineering,Data Analyst,1.8,G2,36,2,8.6,21.1,B3,8.1,2.4,3.7,0.77,0.0,0,Stayed,Not Promoted,0,False
+E0638,Engineering,QA Engineer,1.5,G2,34,6,5.1,12.7,B2,1.5,3.6,3.7,0.82,0.0,0,Stayed,Not Promoted,0,False
+E0639,Customer Support,Support Specialist,4.4,G2,37,5,14.8,5.1,B3,9.8,2.9,2.2,0.9,0.0,0,Left,Not Promoted,1,False
+E0640,Engineering,QA Engineer,0.8,G4,22,4,6.8,20.3,B1,8.3,4.5,3.1,0.62,0.0,0,Stayed,Not Promoted,0,False
+E0641,Engineering,QA Engineer,7.6,G2,47,3,9.6,14.2,B2,7.6,4.8,4.8,0.49,0.0,1,Stayed,Not Promoted,0,False
+E0642,Sales,Account Manager,6.9,G2,30,8,0.7,8.5,B5,7.7,3.8,4.2,0.39,1.0,0,Stayed,Promoted,0,False
+E0643,HR,HR Executive,6.5,G1,34,4,6.2,16.2,B3,8.2,2.7,3.3,0.36,,0,Stayed,Unknown,0,False
+E0644,Engineering,Data Analyst,5.5,G4,34,3,7.3,3.5,B3,1.8,3.7,2.1,0.39,1.0,0,Stayed,Promoted,0,False
+E0645,Operations,Operations Analyst,3.6,G2,30,2,11.3,21.2,B5,6.4,3.5,4.0,0.63,1.0,0,Stayed,Promoted,0,False
+E0646,Sales,Account Manager,4.4,G3,24,3,3.9,13.3,B2,10.3,3.3,3.4,0.62,1.0,0,Stayed,Promoted,0,False
+E0647,Customer Support,Support Lead,4.5,G2,28,2,14.6,17.1,B1,1.9,3.4,3.9,0.72,0.0,0,Stayed,Not Promoted,0,False
+E0648,Sales,Sales Manager,2.1,G1,34,1,5.0,21.9,B4,5.5,2.7,4.9,0.78,0.0,0,Stayed,Not Promoted,0,False
+E0649,Engineering,Team Lead,3.8,G2,27,5,8.3,23.3,B1,6.9,3.1,3.9,0.25,0.0,0,Stayed,Not Promoted,0,False
+E0650,Operations,Operations Analyst,1.4,G2,29,5,11.7,13.4,B1,0.2,4.7,4.1,0.58,0.0,0,Stayed,Not Promoted,0,False
+E0651,Engineering,Data Analyst,4.3,G4,35,8,2.2,12.9,B5,12.3,3.7,3.6,0.15,0.0,0,Stayed,Not Promoted,0,False
+E0652,HR,HR Executive,2.8,G1,34,5,0.0,9.1,B1,5.7,1.8,3.0,0.49,1.0,0,Stayed,Promoted,0,False
+E0653,Engineering,Team Lead,2.5,G4,34,3,5.3,14.1,B5,10.6,2.9,2.6,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0654,Finance,Financial Analyst,2.1,G3,23,3,14.6,20.3,B2,8.3,3.0,1.9,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0655,Operations,Operations Manager,2.5,G1,33,3,21.1,9.3,B4,5.7,3.9,2.9,0.8,0.0,0,Left,Not Promoted,1,False
+E0656,Marketing,Content Specialist,5.2,G3,37,1,10.4,13.5,B2,6.0,3.6,2.7,0.61,1.0,0,Stayed,Promoted,0,False
+E0657,HR,HR Manager,4.0,G4,33,7,16.3,15.6,B3,5.7,4.4,4.1,0.79,1.0,1,Stayed,Promoted,0,False
+E0658,Customer Support,Support Specialist,2.7,G5,30,4,16.3,16.1,B1,7.0,4.7,3.4,0.52,,0,Stayed,Unknown,0,False
+E0659,Engineering,Team Lead,3.3,G3,30,2,5.3,10.4,B1,6.4,2.1,4.5,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0660,Customer Support,Support Agent,8.4,G4,30,5,6.8,13.3,B3,5.7,3.7,3.2,0.87,0.0,0,Stayed,Not Promoted,0,False
+E0661,Operations,Operations Associate,4.6,G5,30,6,0.7,20.2,B3,12.4,3.0,2.9,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0662,Sales,Account Manager,4.1,G1,21,2,15.8,21.9,B2,4.6,2.2,4.4,0.71,0.0,0,Stayed,Not Promoted,0,False
+E0663,Customer Support,Support Specialist,1.4,G4,31,5,1.4,5.0,B3,7.9,3.8,2.9,0.93,0.0,0,Stayed,Not Promoted,0,False
+E0664,HR,Recruiter,2.1,G3,35,3,8.0,12.4,B2,6.2,2.7,3.0,0.96,1.0,0,Stayed,Promoted,0,False
+E0665,Customer Support,Support Specialist,9.8,G2,30,4,7.8,14.8,B5,5.8,3.8,3.4,0.82,1.0,0,Left,Promoted,1,False
+E0666,Sales,Account Manager,6.2,G1,30,11,10.7,19.8,B2,5.2,4.6,2.0,0.47,0.0,0,Stayed,Not Promoted,0,False
+E0667,Engineering,Data Analyst,10.6,G2,31,3,9.6,17.5,B2,5.0,3.7,3.4,0.31,1.0,0,Stayed,Promoted,0,False
+E0668,Operations,Operations Manager,2.9,G2,28,5,3.0,15.0,B3,7.1,2.1,3.0,0.51,0.0,1,Left,Not Promoted,1,False
+E0669,Finance,Accountant,1.6,G2,22,1,5.6,5.7,B3,8.4,3.7,2.3,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0670,Operations,Operations Associate,6.8,G2,38,5,3.1,11.5,B1,9.5,3.4,4.3,0.4,1.0,0,Stayed,Promoted,0,False
+E0671,Operations,Operations Manager,2.3,G3,33,5,15.6,13.4,B3,8.9,2.2,5.0,0.76,0.0,0,Stayed,Not Promoted,0,False
+E0672,Customer Support,Support Lead,14.7,G3,38,2,5.2,17.1,B4,9.2,4.1,4.4,0.23,1.0,0,Stayed,Promoted,0,False
+E0673,Finance,Accountant,7.1,G3,34,3,1.1,10.9,B3,6.9,2.5,1.3,0.79,1.0,0,Stayed,Promoted,0,False
+E0674,Marketing,Marketing Executive,3.4,G1,31,2,9.9,3.9,B1,3.2,3.2,3.4,0.51,1.0,0,Stayed,Promoted,0,False
+E0675,Engineering,QA Engineer,7.3,G2,30,4,16.4,15.7,B3,4.4,2.2,5.0,0.81,1.0,0,Stayed,Promoted,0,False
+E0676,Operations,Operations Analyst,6.6,G2,38,8,0.0,18.8,B2,8.6,3.8,1.0,0.93,1.0,1,Stayed,Promoted,0,False
+E0677,HR,Recruiter,2.6,G1,31,4,0.0,1.8,B5,6.7,4.1,2.8,0.14,0.0,1,Stayed,Not Promoted,0,False
+E0678,Engineering,QA Engineer,2.4,G2,31,1,7.8,4.3,B1,6.7,4.1,3.7,0.54,1.0,0,Left,Promoted,1,False
+E0679,Engineering,Data Analyst,4.6,G2,39,6,2.9,10.7,B2,9.2,3.6,3.4,0.23,0.0,0,Stayed,Not Promoted,0,False
+E0680,Engineering,QA Engineer,5.4,G5,31,4,0.0,8.0,B3,4.7,3.3,3.4,0.42,0.0,0,Stayed,Not Promoted,0,False
+E0681,Finance,Accountant,4.9,G1,36,1,20.5,9.5,B2,3.8,4.6,3.2,0.36,0.0,0,Stayed,Not Promoted,0,False
+E0682,Marketing,Marketing Manager,4.6,G2,32,3,4.4,15.1,B1,13.7,3.1,2.4,0.41,0.0,0,Stayed,Not Promoted,0,False
+E0683,Finance,Financial Analyst,2.0,G4,27,2,13.8,22.6,B2,8.2,3.0,2.9,0.25,0.0,0,Left,Not Promoted,1,False
+E0684,Marketing,Content Specialist,8.8,G1,27,2,10.8,9.5,B1,5.4,3.2,4.5,0.42,1.0,1,Stayed,Promoted,0,False
+E0685,Customer Support,Support Specialist,2.1,G4,25,7,10.1,14.5,B5,5.5,2.5,3.6,0.52,0.0,0,Stayed,Not Promoted,0,False
+E0686,Engineering,Software Engineer,1.6,G4,39,8,2.5,15.0,B2,11.9,2.9,2.8,0.34,1.0,0,Stayed,Promoted,0,False
+E0687,Sales,Sales Manager,3.0,G3,32,5,4.8,14.6,B3,6.9,2.6,2.5,0.46,0.0,1,Stayed,Not Promoted,0,False
+E0688,Operations,Operations Associate,8.2,G1,32,4,3.8,14.9,B2,8.8,2.2,3.5,0.73,0.0,0,Stayed,Not Promoted,0,False
+E0689,Engineering,Software Engineer,1.4,G5,25,2,6.4,6.7,B3,4.8,5.0,2.7,0.36,0.0,1,Left,Not Promoted,1,False
+E0690,Operations,Operations Associate,5.5,G3,30,3,7.0,0.5,B3,6.5,4.4,3.4,0.72,0.0,0,Stayed,Not Promoted,0,False
+E0691,Engineering,QA Engineer,1.4,G1,30,10,0.0,15.4,B2,4.9,3.9,2.7,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0692,Engineering,Software Engineer,4.1,G3,33,4,2.3,23.3,B1,6.7,3.3,3.5,0.48,1.0,1,Stayed,Promoted,0,False
+E0693,Sales,Account Manager,5.7,G3,33,1,1.9,11.7,B1,6.7,4.4,2.7,0.9,0.0,0,Stayed,Not Promoted,0,False
+E0694,Engineering,Team Lead,1.4,G1,27,7,13.4,21.1,B4,4.1,4.2,3.6,0.63,0.0,1,Left,Not Promoted,1,False
+E0695,HR,HR Executive,5.1,G3,24,4,4.8,14.6,B3,9.9,3.9,4.3,0.73,1.0,0,Stayed,Promoted,0,False
+E0696,Engineering,Data Analyst,3.8,G2,32,5,13.8,14.9,B4,9.3,3.6,2.0,0.49,1.0,0,Stayed,Promoted,0,False
+E0697,Marketing,Marketing Manager,4.1,G3,38,3,5.7,12.0,B2,5.4,3.2,4.1,0.15,1.0,0,Left,Promoted,1,False
+E0698,Engineering,Team Lead,8.4,G4,30,1,0.7,15.0,B3,10.6,3.1,3.0,0.63,1.0,1,Stayed,Promoted,0,False
+E0699,Customer Support,Support Agent,0.4,G1,21,6,6.4,11.8,B5,6.8,4.7,4.5,0.19,0.0,0,Stayed,Not Promoted,0,False
+E0700,Sales,Sales Manager,2.5,G4,24,3,6.2,17.9,B2,7.7,3.9,2.7,0.92,0.0,1,Stayed,Not Promoted,0,False
+E0701,Customer Support,Support Lead,6.7,G3,31,5,3.8,18.7,B1,5.0,3.1,3.6,0.39,1.0,0,Stayed,Promoted,0,False
+E0702,Engineering,Data Analyst,11.1,G4,33,5,12.7,13.6,B1,9.2,2.3,4.4,0.34,1.0,0,Stayed,Promoted,0,False
+E0703,Finance,Financial Analyst,2.1,G2,27,6,7.5,13.7,B4,3.0,4.0,4.2,0.67,0.0,0,Stayed,Not Promoted,0,False
+E0704,Marketing,Marketing Executive,2.7,G4,37,1,14.9,15.7,B4,5.6,4.2,3.1,0.53,0.0,0,Stayed,Not Promoted,0,False
+E0705,Marketing,Marketing Manager,2.5,G2,23,5,20.7,11.3,B1,6.7,3.6,3.1,0.79,,0,Left,Unknown,1,False
+E0706,Finance,Accountant,4.5,G1,37,4,1.0,16.4,B3,4.8,1.8,3.4,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0707,Marketing,Marketing Manager,1.7,G1,31,3,8.5,13.5,B5,7.5,2.9,2.8,0.48,1.0,0,Stayed,Promoted,0,False
+E0708,Sales,Sales Manager,2.7,G3,29,2,11.7,11.8,B4,8.3,3.8,5.0,0.57,0.0,0,Stayed,Not Promoted,0,False
+E0709,Marketing,Content Specialist,4.4,G3,21,3,0.0,15.3,B4,7.1,3.2,3.0,0.86,1.0,0,Stayed,Promoted,0,False
+E0710,Engineering,Software Engineer,2.0,G5,33,6,8.1,19.3,B3,7.0,2.8,4.5,0.54,0.0,0,Stayed,Not Promoted,0,False
+E0711,Finance,Accountant,3.3,G3,45,4,6.6,13.7,B2,7.5,2.4,3.4,0.4,0.0,0,Stayed,Not Promoted,0,False
+E0712,Operations,Operations Analyst,6.4,G2,34,2,1.9,14.4,B5,3.9,3.6,2.3,0.26,0.0,0,Left,Not Promoted,1,False
+E0713,Customer Support,Support Specialist,1.7,G5,31,5,0.0,15.4,B3,1.5,2.4,3.7,0.92,0.0,0,Stayed,Not Promoted,0,False
+E0714,Sales,Account Manager,2.3,G4,32,3,4.2,15.5,B4,5.4,4.2,2.8,0.83,0.0,1,Stayed,Not Promoted,0,False
+E0715,Finance,Accountant,7.0,G5,35,7,15.1,18.2,B3,5.6,2.7,4.1,0.89,0.0,1,Stayed,Not Promoted,0,False
+E0716,Sales,Sales Executive,7.9,G3,34,3,6.4,10.6,B2,7.0,3.5,4.3,0.37,1.0,0,Stayed,Promoted,0,False
+E0717,Engineering,QA Engineer,16.4,G4,48,1,3.2,6.4,B3,5.6,3.1,3.1,0.82,1.0,0,Stayed,Promoted,0,False
+E0718,Finance,Accountant,9.0,G5,33,2,8.2,10.6,B3,11.7,4.1,4.0,0.45,1.0,1,Stayed,Promoted,0,False
+E0719,Operations,Operations Manager,3.7,G1,35,6,10.7,23.6,B1,9.1,3.5,4.6,0.96,0.0,0,Stayed,Not Promoted,0,False
+E0720,Marketing,Marketing Manager,2.6,G5,26,1,0.0,10.6,B3,5.6,2.4,4.0,0.29,0.0,1,Stayed,Not Promoted,0,False
+E0721,Engineering,QA Engineer,6.6,G3,29,5,10.5,13.6,B3,6.3,4.4,2.8,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0722,Customer Support,Support Agent,5.3,G1,25,3,9.3,15.8,B2,10.5,4.5,2.5,0.7,0.0,1,Stayed,Not Promoted,0,False
+E0723,Operations,Operations Analyst,2.8,G3,32,2,7.5,13.8,B1,7.3,3.7,3.9,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0724,Engineering,Team Lead,4.4,G2,21,2,16.9,17.5,B5,9.0,2.2,3.6,0.6,1.0,0,Left,Promoted,1,False
+E0725,Engineering,Data Analyst,2.1,G2,27,7,9.8,7.6,B3,10.3,2.6,3.4,0.37,0.0,0,Left,Not Promoted,1,False
+E0726,Sales,Sales Executive,3.1,G4,30,4,26.9,20.4,B1,12.7,2.7,3.1,0.48,0.0,0,Left,Not Promoted,1,True
+E0727,Engineering,QA Engineer,7.5,G4,32,5,13.5,14.0,B4,5.1,3.1,3.4,0.58,1.0,0,Stayed,Promoted,0,False
+E0728,Engineering,Software Engineer,6.4,G4,39,3,8.2,8.5,B1,3.2,3.0,3.0,0.62,1.0,1,Stayed,Promoted,0,False
+E0729,Sales,Account Manager,8.9,G5,40,6,3.9,11.0,B5,8.7,2.9,3.4,0.61,0.0,0,Stayed,Not Promoted,0,False
+E0730,Engineering,QA Engineer,2.5,G4,34,3,5.9,17.3,B5,7.6,3.6,4.6,0.41,0.0,0,Stayed,Not Promoted,0,False
+E0731,Sales,Sales Executive,3.0,G2,31,9,1.0,14.0,B4,12.1,2.7,2.8,0.58,1.0,1,Stayed,Promoted,0,False
+E0732,Operations,Operations Analyst,2.9,G2,25,4,0.0,13.1,B2,4.8,3.3,4.9,0.45,1.0,0,Stayed,Promoted,0,False
+E0733,Customer Support,Support Specialist,1.8,G2,23,3,11.8,20.6,B4,6.6,3.4,4.5,0.64,0.0,1,Left,Not Promoted,1,False
+E0734,Engineering,Team Lead,1.8,G2,21,5,16.3,16.8,B4,2.9,5.0,3.1,0.96,0.0,1,Stayed,Not Promoted,0,False
+E0735,Engineering,Software Engineer,10.3,G2,36,3,0.0,18.7,B5,3.3,3.3,3.7,0.57,1.0,0,Left,Promoted,1,False
+E0736,Engineering,Data Analyst,2.4,G4,33,4,7.2,10.4,B3,4.8,3.8,3.6,0.78,1.0,0,Stayed,Promoted,0,False
+E0737,Sales,Sales Manager,4.6,G2,37,1,7.1,12.9,B1,9.3,4.2,1.4,0.89,0.0,0,Stayed,Not Promoted,0,False
+E0738,Marketing,Content Specialist,3.7,G5,28,4,0.7,17.4,B4,6.1,3.0,2.7,0.46,0.0,0,Stayed,Not Promoted,0,False
+E0739,Operations,Operations Analyst,2.6,G4,29,3,7.7,4.0,B2,6.0,2.8,2.6,0.77,0.0,0,Stayed,Not Promoted,0,False
+E0740,Engineering,Team Lead,4.6,G5,35,2,0.0,0.4,B5,12.3,4.3,5.0,0.15,0.0,0,Stayed,Not Promoted,0,False
+E0741,Customer Support,Support Lead,4.2,G4,32,4,8.8,10.3,B2,6.6,4.0,4.7,0.47,1.0,0,Stayed,Promoted,0,False
+E0742,Sales,Account Manager,1.4,G5,21,1,6.1,16.6,B4,5.4,3.3,3.4,0.48,0.0,1,Stayed,Not Promoted,0,False
+E0743,Finance,Financial Analyst,4.8,G2,26,6,10.6,14.8,B2,8.6,3.6,3.1,0.77,1.0,0,Stayed,Promoted,0,False
+E0744,Sales,Account Manager,3.3,G4,36,3,4.9,15.3,B5,0.0,3.5,2.4,0.54,0.0,0,Stayed,Not Promoted,0,False
+E0745,Sales,Sales Manager,6.3,G1,42,2,9.9,11.8,B2,7.3,3.9,3.1,0.56,0.0,1,Left,Not Promoted,1,False
+E0746,HR,Recruiter,0.5,G3,28,2,9.0,19.7,B3,2.7,3.6,4.2,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0747,Engineering,QA Engineer,10.2,G3,40,3,12.8,26.2,B4,8.7,4.0,3.8,0.87,1.0,0,Stayed,Promoted,0,False
+E0748,Engineering,QA Engineer,6.3,G2,26,2,15.1,17.7,B4,4.9,3.9,3.4,0.31,0.0,0,Stayed,Not Promoted,0,False
+E0749,Operations,Operations Manager,6.4,G4,35,4,8.6,9.9,B4,1.9,2.8,5.0,0.67,1.0,0,Stayed,Promoted,0,False
+E0750,Sales,Sales Manager,4.2,G2,29,6,13.6,11.7,B3,5.8,3.4,3.5,0.82,1.0,0,Stayed,Promoted,0,False
+E0751,Engineering,Team Lead,6.7,G4,34,7,5.7,11.7,B4,9.2,3.9,3.7,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0752,Engineering,Software Engineer,16.5,G5,44,3,10.1,21.8,B2,7.0,3.8,4.7,0.5,1.0,1,Stayed,Promoted,0,False
+E0753,Marketing,Marketing Manager,7.3,G1,40,2,8.1,15.9,B2,2.0,3.9,3.1,0.82,1.0,0,Stayed,Promoted,0,False
+E0754,Customer Support,Support Specialist,2.7,G4,21,6,8.0,11.1,B2,6.5,3.1,3.7,0.52,1.0,1,Stayed,Promoted,0,False
+E0755,HR,HR Executive,2.6,G1,27,5,14.0,10.8,B4,8.3,3.7,2.5,0.65,1.0,0,Stayed,Promoted,0,False
+E0756,Operations,Operations Manager,12.1,G4,46,4,7.9,15.2,B2,3.0,4.6,2.1,0.33,1.0,0,Stayed,Promoted,0,False
+E0757,Marketing,Marketing Manager,2.3,G1,25,4,0.0,11.0,B5,6.1,5.0,3.6,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0758,Sales,Account Manager,6.1,G3,30,7,9.7,12.6,B2,5.4,3.8,3.4,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0759,Finance,Finance Manager,1.1,G2,25,5,3.7,15.0,B1,3.7,5.0,3.9,0.38,1.0,1,Stayed,Promoted,0,False
+E0760,Sales,Sales Manager,5.4,G3,34,3,9.1,9.5,B4,10.1,3.5,4.1,0.84,1.0,0,Stayed,Promoted,0,False
+E0761,Sales,Sales Executive,2.9,G4,36,4,16.7,10.3,B4,4.1,3.2,3.1,0.36,0.0,0,Left,Not Promoted,1,False
+E0762,Sales,Account Manager,10.9,G5,37,6,0.0,18.5,B4,7.9,2.9,5.0,0.31,1.0,1,Stayed,Promoted,0,False
+E0763,Engineering,QA Engineer,8.8,G2,34,3,9.8,12.5,B2,7.5,3.3,2.4,0.62,1.0,0,Stayed,Promoted,0,False
+E0764,Operations,Operations Manager,4.8,G2,25,6,8.1,9.6,B3,0.8,4.4,4.7,0.5,1.0,0,Stayed,Promoted,0,False
+E0765,Marketing,Marketing Executive,2.2,G3,30,7,5.9,8.8,B3,1.2,3.7,3.7,0.76,0.0,0,Stayed,Not Promoted,0,False
+E0766,Customer Support,Support Specialist,7.9,G3,40,4,8.7,24.1,B2,1.2,3.2,3.1,0.44,1.0,0,Stayed,Promoted,0,False
+E0767,Sales,Sales Executive,9.6,G3,31,2,7.9,24.1,B2,7.6,3.5,2.4,0.59,1.0,0,Stayed,Promoted,0,False
+E0768,Marketing,Marketing Executive,4.4,G2,27,4,7.7,19.3,B4,7.0,3.9,3.2,0.34,1.0,0,Stayed,Promoted,0,False
+E0769,Sales,Account Manager,7.4,G3,35,8,13.0,15.2,B3,6.4,4.1,4.2,0.61,1.0,0,Stayed,Promoted,0,False
+E0770,Engineering,QA Engineer,2.2,G5,30,4,9.2,11.4,B3,2.8,3.0,3.4,0.78,1.0,0,Stayed,Promoted,0,False
+E0771,Marketing,Marketing Executive,4.9,G5,27,3,7.9,7.1,B3,7.9,3.7,3.1,0.36,0.0,0,Stayed,Not Promoted,0,False
+E0772,Engineering,Team Lead,4.9,G4,30,5,13.9,13.3,B2,8.0,3.5,3.4,0.26,0.0,0,Stayed,Not Promoted,0,False
+E0773,Sales,Sales Executive,1.4,G3,34,7,13.2,11.4,B5,1.5,2.5,3.2,0.58,0.0,0,Stayed,Not Promoted,0,False
+E0774,Operations,Operations Manager,8.5,G5,33,2,1.2,11.4,B2,6.1,4.1,2.9,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0775,Sales,Sales Manager,4.8,G2,26,4,1.7,12.3,B2,6.7,2.5,3.9,0.63,0.0,0,Stayed,Not Promoted,0,False
+E0776,Finance,Accountant,2.2,G2,28,6,14.9,16.1,B3,13.1,2.8,4.0,0.6,0.0,0,Stayed,Not Promoted,0,False
+E0777,Sales,Account Manager,2.7,G2,30,6,0.0,12.0,B2,3.0,5.0,4.2,0.24,0.0,0,Stayed,Not Promoted,0,False
+E0778,Marketing,Marketing Executive,5.2,G1,35,5,9.8,18.4,B1,8.2,3.2,2.9,0.74,0.0,0,Stayed,Not Promoted,0,False
+E0779,Engineering,QA Engineer,8.4,G2,25,1,11.9,9.8,B2,6.0,3.6,4.9,0.33,0.0,0,Stayed,Not Promoted,0,False
+E0780,Sales,Sales Executive,3.5,G1,26,6,10.6,13.5,B3,1.0,3.3,2.4,0.41,1.0,1,Stayed,Promoted,0,False
+E0781,HR,Recruiter,3.2,G4,30,2,8.5,18.9,B3,13.6,3.7,2.7,0.73,1.0,0,Stayed,Promoted,0,False
+E0782,Engineering,Software Engineer,5.5,G2,33,5,0.0,1.7,B3,5.9,3.1,3.5,0.44,0.0,0,Stayed,Not Promoted,0,False
+E0783,Operations,Operations Analyst,1.5,G1,28,2,17.3,17.3,B2,6.4,3.3,3.4,0.24,0.0,0,Stayed,Not Promoted,0,False
+E0784,HR,HR Executive,3.9,G4,28,4,15.3,19.6,B3,1.8,2.8,2.3,0.3,0.0,0,Left,Not Promoted,1,False
+E0785,Engineering,Data Analyst,1.8,G5,30,2,15.8,13.3,B3,8.4,3.3,3.4,0.91,0.0,0,Stayed,Not Promoted,0,False
+E0786,Operations,Operations Manager,2.5,G4,27,6,0.0,10.2,B4,9.2,3.2,2.9,0.67,0.0,1,Stayed,Not Promoted,0,False
+E0787,Engineering,Team Lead,3.2,G4,32,5,4.9,8.9,B3,7.8,3.2,3.3,0.71,0.0,0,Left,Not Promoted,1,False
+E0788,Marketing,Content Specialist,5.4,G5,28,5,9.5,16.3,B2,9.3,2.9,2.8,0.26,1.0,0,Stayed,Promoted,0,False
+E0789,Operations,Operations Analyst,6.7,G5,33,6,0.6,22.0,B2,9.0,2.6,4.9,0.78,0.0,1,Stayed,Not Promoted,0,False
+E0790,Operations,Operations Manager,1.7,G2,29,5,15.0,19.1,B1,1.6,3.5,2.7,0.49,0.0,0,Left,Not Promoted,1,False
+E0791,Marketing,Marketing Executive,7.2,G1,35,4,12.5,12.0,B2,6.2,3.9,3.5,0.52,0.0,0,Stayed,Not Promoted,0,False
+E0792,Operations,Operations Manager,0.5,G1,30,4,8.0,14.2,B4,6.4,2.5,2.6,0.62,0.0,0,Stayed,Not Promoted,0,False
+E0793,Marketing,Content Specialist,3.2,G4,31,8,3.4,15.5,B3,8.5,2.8,2.8,0.33,0.0,0,Stayed,Not Promoted,0,False
+E0794,Marketing,Marketing Manager,5.4,G3,31,3,4.6,12.1,B5,3.2,3.7,3.9,0.48,1.0,0,Stayed,Promoted,0,False
+E0795,HR,HR Manager,5.5,G2,37,3,20.0,22.3,B2,6.9,2.8,3.6,0.74,1.0,1,Stayed,Promoted,0,False
+E0796,Sales,Sales Executive,3.4,G4,33,2,14.7,17.1,B1,7.8,2.5,4.3,0.91,0.0,0,Stayed,Not Promoted,0,False
+E0797,Sales,Sales Manager,0.7,G4,21,2,4.3,6.8,B4,7.9,4.7,3.2,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0798,Customer Support,Support Specialist,2.9,G4,33,5,12.4,15.2,B2,4.9,3.8,3.1,0.53,0.0,0,Left,Not Promoted,1,False
+E0799,Engineering,Data Analyst,3.3,G2,32,4,8.7,12.6,B1,2.2,3.7,3.3,0.4,1.0,0,Stayed,Promoted,0,False
+E0800,Engineering,Data Analyst,2.4,G3,37,4,6.2,6.9,B5,3.8,3.5,4.5,0.69,0.0,0,Stayed,Not Promoted,0,False
+E0801,Finance,Accountant,8.8,G2,34,2,11.2,12.5,B2,12.2,3.5,4.5,0.27,1.0,0,Stayed,Promoted,0,False
+E0802,Marketing,Marketing Executive,1.5,G3,27,4,0.0,13.4,B4,4.4,4.2,3.1,0.62,0.0,0,Stayed,Not Promoted,0,False
+E0803,Operations,Operations Manager,1.8,G2,28,2,13.5,19.2,B3,5.3,3.5,3.0,0.34,0.0,0,Left,Not Promoted,1,False
+E0804,Marketing,Content Specialist,21.7,G3,48,7,9.0,2.7,B2,3.2,4.4,4.1,0.29,1.0,0,Stayed,Promoted,0,False
+E0805,Sales,Sales Manager,6.9,G2,38,5,3.7,15.9,B2,5.8,3.4,3.6,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0806,Operations,Operations Manager,9.1,G4,28,7,13.6,22.5,B4,9.9,3.2,3.0,0.76,1.0,0,Stayed,Promoted,0,False
+E0807,Engineering,QA Engineer,7.5,G1,26,3,9.6,13.2,B4,6.0,2.8,2.7,0.2,1.0,0,Stayed,Promoted,0,False
+E0808,HR,HR Executive,1.1,G1,22,5,14.1,19.3,B3,4.7,1.9,3.7,0.55,0.0,0,Left,Not Promoted,1,False
+E0809,HR,HR Manager,5.1,G2,27,7,4.2,13.7,B2,3.3,4.0,3.2,0.66,1.0,1,Stayed,Promoted,0,False
+E0810,Customer Support,Support Specialist,1.2,G1,28,3,12.4,12.4,B1,8.3,4.9,4.4,0.57,0.0,1,Left,Not Promoted,1,False
+E0811,Marketing,Marketing Manager,5.6,G4,38,2,18.6,14.6,B1,7.5,4.2,4.6,0.93,1.0,0,Stayed,Promoted,0,False
+E0812,Sales,Sales Executive,4.4,G2,35,1,5.3,14.0,B4,8.7,3.9,3.4,0.53,1.0,0,Stayed,Promoted,0,False
+E0813,Sales,Account Manager,3.5,G2,33,5,15.8,16.8,B5,10.2,2.5,3.4,0.78,0.0,0,Left,Not Promoted,1,False
+E0814,HR,Recruiter,8.3,G2,36,5,11.2,12.7,B4,8.7,4.5,4.0,0.11,1.0,0,Stayed,Promoted,0,False
+E0815,Finance,Finance Manager,3.5,G4,29,1,14.7,9.5,B3,8.3,2.1,3.4,0.28,0.0,0,Stayed,Not Promoted,0,False
+E0816,Operations,Operations Associate,5.6,G4,27,4,11.0,12.3,B2,3.3,1.5,3.4,0.43,0.0,0,Stayed,Not Promoted,0,False
+E0817,Marketing,Marketing Executive,6.3,G1,34,1,5.5,8.3,B3,4.3,3.0,4.0,0.59,0.0,0,Stayed,Not Promoted,0,False
+E0818,HR,HR Manager,6.6,G3,39,8,14.6,14.3,B2,4.9,2.7,4.1,0.38,0.0,1,Stayed,Not Promoted,0,False
+E0819,Sales,Account Manager,2.6,G1,23,2,2.7,22.2,B1,7.2,3.9,4.0,0.15,1.0,0,Stayed,Promoted,0,False
+E0820,HR,Recruiter,3.5,G2,32,1,8.8,16.3,B4,4.0,3.0,4.5,0.29,0.0,0,Stayed,Not Promoted,0,False
+E0821,Engineering,Software Engineer,7.3,G1,35,4,8.4,8.3,B3,5.1,4.2,3.0,0.55,1.0,0,Stayed,Promoted,0,False
+E0822,Sales,Sales Executive,4.3,G4,31,6,4.3,12.7,B1,6.2,3.5,4.0,0.34,0.0,0,Stayed,Not Promoted,0,False
+E0823,Engineering,QA Engineer,6.0,G3,27,4,8.8,12.6,B5,10.5,3.9,2.4,0.63,0.0,0,Stayed,Not Promoted,0,False
+E0824,Marketing,Marketing Manager,10.7,G1,31,4,14.0,8.0,B2,5.3,4.7,2.0,0.21,0.0,0,Stayed,Not Promoted,0,False
+E0825,Finance,Financial Analyst,5.8,G4,30,1,0.0,7.9,B3,6.8,2.9,4.4,0.35,1.0,0,Stayed,Promoted,0,False
+E0826,Marketing,Marketing Executive,3.0,G5,22,8,6.8,12.9,B4,6.0,4.5,3.7,0.83,0.0,1,Stayed,Not Promoted,0,False
+E0827,Customer Support,Support Agent,4.0,G3,29,2,11.8,9.8,B1,7.7,2.7,3.3,0.56,1.0,1,Stayed,Promoted,0,False
+E0828,Operations,Operations Analyst,5.7,G2,29,3,4.9,9.2,B3,8.3,2.2,4.7,0.64,0.0,0,Stayed,Not Promoted,0,False
+E0829,Engineering,Team Lead,7.4,G2,40,3,10.8,22.7,B3,12.5,3.3,1.6,0.77,0.0,0,Stayed,Not Promoted,0,False
+E0830,Engineering,Software Engineer,1.7,G2,40,2,12.6,10.7,B1,11.4,3.4,5.0,0.56,0.0,0,Stayed,Not Promoted,0,False
+E0831,Marketing,Marketing Executive,3.3,G1,32,4,1.6,16.3,B5,10.2,3.7,2.2,0.78,0.0,0,Stayed,Not Promoted,0,False
+E0832,HR,HR Executive,3.7,G3,30,4,5.6,11.1,B2,7.0,3.5,2.3,0.31,1.0,0,Stayed,Promoted,0,False
+E0833,Marketing,Content Specialist,15.8,G4,37,1,1.9,9.4,B2,8.6,3.6,3.4,0.8,1.0,0,Stayed,Promoted,0,False
+E0834,Customer Support,Support Lead,7.9,G3,36,2,5.9,10.8,B1,8.7,4.4,2.8,0.72,0.0,1,Stayed,Not Promoted,0,False
+E0835,Sales,Sales Executive,9.5,G3,38,3,17.7,14.1,B2,5.0,2.7,4.3,0.57,0.0,0,Stayed,Not Promoted,0,False
+E0836,Marketing,Content Specialist,2.0,G4,40,3,7.1,13.5,B1,9.2,4.7,2.8,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0837,HR,HR Manager,4.1,G4,21,2,11.7,12.4,B3,9.4,3.0,4.0,0.34,0.0,0,Stayed,Not Promoted,0,False
+E0838,Customer Support,Support Lead,6.9,G4,30,4,4.1,17.3,B3,6.8,3.9,4.1,0.19,1.0,0,Stayed,Promoted,0,False
+E0839,Sales,Sales Executive,9.4,G2,33,1,1.0,12.6,B2,3.1,3.6,4.2,0.4,1.0,1,Stayed,Promoted,0,False
+E0840,Engineering,Data Analyst,1.3,G1,32,2,0.0,17.9,B5,2.5,3.1,3.0,0.49,0.0,1,Stayed,Not Promoted,0,False
+E0841,Customer Support,Support Agent,1.2,G4,33,1,10.2,3.0,B4,5.5,3.1,3.7,0.47,0.0,1,Stayed,Not Promoted,0,False
+E0842,Operations,Operations Manager,6.9,G3,27,4,9.1,7.0,B3,10.8,3.6,2.6,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0843,Sales,Account Manager,2.4,G2,26,7,0.0,14.1,B3,11.1,2.1,3.2,0.78,1.0,0,Stayed,Promoted,0,False
+E0844,Finance,Financial Analyst,5.1,G2,26,10,13.4,17.5,B3,4.0,2.0,3.5,0.95,0.0,0,Stayed,Not Promoted,0,False
+E0845,Customer Support,Support Specialist,3.4,G2,27,2,5.1,16.1,B5,4.7,2.8,3.6,0.24,0.0,0,Left,Not Promoted,1,False
+E0846,Customer Support,Support Agent,2.6,G1,37,5,7.2,22.3,B2,1.1,3.8,3.8,0.88,0.0,0,Left,Not Promoted,1,False
+E0847,Customer Support,Support Agent,5.4,G3,36,3,18.1,21.3,B2,9.0,3.1,2.7,0.34,1.0,0,Left,Promoted,1,False
+E0848,Engineering,Team Lead,3.4,G4,33,1,5.2,15.3,B2,4.2,4.3,4.4,0.66,1.0,0,Stayed,Promoted,0,False
+E0849,Finance,Financial Analyst,6.7,G2,31,2,3.3,16.3,B2,5.2,3.4,3.1,0.1,0.0,0,Stayed,Not Promoted,0,False
+E0850,HR,Recruiter,2.6,G3,34,2,13.6,8.9,B4,9.6,1.7,4.1,0.7,0.0,0,Stayed,Not Promoted,0,False
+E0851,Marketing,Marketing Manager,5.6,G5,33,1,0.0,8.9,B4,10.9,4.4,3.2,0.23,1.0,0,Left,Promoted,1,False
+E0852,Sales,Sales Manager,5.9,G2,28,8,0.0,6.8,B1,11.7,4.6,4.5,0.99,1.0,1,Stayed,Promoted,0,False
+E0853,Engineering,Software Engineer,7.1,G4,37,3,10.5,17.6,B3,6.7,4.0,4.7,0.8,1.0,0,Stayed,Promoted,0,False
+E0854,Sales,Sales Executive,11.3,G4,48,5,0.0,16.5,B3,0.3,3.8,5.0,0.39,0.0,0,Stayed,Not Promoted,0,False
+E0855,Marketing,Content Specialist,4.4,G3,39,3,9.2,12.6,B1,2.9,4.0,5.0,0.85,1.0,0,Stayed,Promoted,0,False
+E0856,Marketing,Marketing Manager,1.8,G3,28,5,14.8,10.3,B1,8.5,1.5,2.9,0.71,1.0,1,Stayed,Promoted,0,False
+E0857,Marketing,Marketing Executive,3.5,G5,30,3,0.0,22.1,B2,11.8,5.0,1.8,0.41,0.0,0,Stayed,Not Promoted,0,False
+E0858,Engineering,QA Engineer,6.0,G3,36,3,9.7,13.0,B5,8.7,3.4,2.8,0.64,1.0,0,Stayed,Promoted,0,False
+E0859,Sales,Sales Manager,0.8,G2,34,6,7.5,13.1,B2,9.0,4.3,5.0,0.35,0.0,1,Stayed,Not Promoted,0,False
+E0860,Engineering,Software Engineer,11.9,G2,34,4,0.0,19.9,B1,4.7,4.4,2.7,0.76,1.0,0,Stayed,Promoted,0,False
+E0861,Engineering,Software Engineer,2.4,G1,29,6,10.8,11.5,B2,4.4,4.3,3.6,0.53,0.0,1,Left,Not Promoted,1,False
+E0862,Operations,Operations Manager,3.0,G4,31,6,9.4,16.5,B2,8.5,3.2,3.0,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0863,Finance,Accountant,1.5,G1,32,4,9.8,9.6,B4,9.7,4.0,3.5,0.72,0.0,0,Stayed,Not Promoted,0,False
+E0864,Marketing,Marketing Manager,4.9,G4,36,2,13.9,5.5,B3,6.4,2.8,3.1,0.68,1.0,0,Left,Promoted,1,False
+E0865,Customer Support,Support Lead,4.0,G2,29,3,11.5,21.2,B4,2.9,3.3,5.0,0.43,0.0,0,Stayed,Not Promoted,0,False
+E0866,Sales,Sales Manager,1.0,G1,27,3,0.0,15.5,B4,8.5,2.0,1.9,0.85,0.0,1,Stayed,Not Promoted,0,False
+E0867,Marketing,Marketing Manager,1.3,G4,30,8,2.7,14.6,B1,9.3,3.0,2.9,0.86,0.0,0,Left,Not Promoted,1,False
+E0868,Finance,Finance Manager,3.8,G4,30,2,3.2,19.4,B2,5.3,3.7,1.9,0.39,0.0,0,Stayed,Not Promoted,0,False
+E0869,HR,Recruiter,6.4,G1,34,2,0.0,14.5,B5,6.0,5.0,3.9,0.84,0.0,1,Stayed,Not Promoted,0,False
+E0870,Sales,Sales Manager,4.3,G3,32,6,7.0,20.5,B1,5.8,3.9,2.3,0.74,0.0,0,Left,Not Promoted,1,False
+E0871,Sales,Sales Manager,3.2,G2,31,3,9.5,9.6,B3,8.8,1.7,3.9,0.78,0.0,0,Stayed,Not Promoted,0,False
+E0872,Marketing,Marketing Executive,2.8,G4,33,4,10.0,17.2,B3,7.3,2.9,3.4,0.6,0.0,0,Stayed,Not Promoted,0,False
+E0873,Engineering,Team Lead,4.1,G4,31,5,11.0,15.9,B3,3.6,4.4,3.5,0.77,0.0,0,Left,Not Promoted,1,False
+E0874,Customer Support,Support Agent,1.8,G4,33,4,14.0,10.6,B4,5.5,3.8,2.6,0.43,0.0,0,Left,Not Promoted,1,False
+E0875,Customer Support,Support Specialist,4.8,G3,35,1,10.0,17.1,B5,6.9,2.7,2.7,0.8,1.0,0,Left,Promoted,1,False
+E0876,Engineering,QA Engineer,1.5,G3,31,3,4.2,20.6,B2,6.9,2.4,3.4,0.65,0.0,1,Stayed,Not Promoted,0,False
+E0877,Finance,Accountant,2.4,G2,21,4,10.4,23.9,B2,11.3,4.3,3.8,0.73,0.0,0,Stayed,Not Promoted,0,False
+E0878,Engineering,QA Engineer,1.1,G2,25,2,2.8,8.1,B1,9.1,3.8,2.5,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0879,Operations,Operations Analyst,1.6,G3,26,3,0.0,8.2,B2,4.7,3.9,3.7,0.51,0.0,1,Stayed,Not Promoted,0,False
+E0880,Operations,Operations Analyst,5.8,G3,38,5,8.9,12.0,B3,3.4,3.0,3.6,0.77,1.0,0,Stayed,Promoted,0,False
+E0881,Customer Support,Support Agent,2.7,G4,31,3,6.9,11.4,B1,8.0,4.0,3.4,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0882,Customer Support,Support Agent,3.1,G3,28,4,3.6,19.3,B1,11.1,3.9,4.0,0.78,0.0,1,Left,Not Promoted,1,False
+E0883,Customer Support,Support Agent,2.7,G5,35,9,0.7,10.1,B5,6.6,3.9,2.8,0.72,0.0,0,Stayed,Not Promoted,0,False
+E0884,Engineering,QA Engineer,6.9,G4,32,5,6.1,9.5,B2,9.8,3.2,3.6,0.79,1.0,0,Stayed,Promoted,0,False
+E0885,Engineering,Software Engineer,3.1,G2,31,4,14.3,10.8,B5,6.5,4.4,4.4,0.67,1.0,0,Stayed,Promoted,0,False
+E0886,Sales,Sales Manager,9.2,G4,32,3,8.3,17.9,B4,6.2,3.4,2.6,0.8,1.0,0,Stayed,Promoted,0,False
+E0887,Operations,Operations Associate,1.7,G2,32,4,2.9,10.8,B1,7.6,4.2,3.4,0.75,0.0,0,Left,Not Promoted,1,False
+E0888,Engineering,Software Engineer,2.5,G5,31,8,10.0,8.8,B4,2.3,2.7,2.9,0.31,1.0,0,Stayed,Promoted,0,False
+E0889,Engineering,Data Analyst,4.8,G3,25,5,25.8,19.2,B3,2.9,4.6,2.4,0.92,0.0,1,Stayed,Not Promoted,0,True
+E0890,Sales,Sales Manager,6.0,G2,33,3,1.4,20.0,B4,5.5,3.4,2.9,0.88,0.0,0,Stayed,Not Promoted,0,False
+E0891,Marketing,Marketing Executive,0.6,G2,33,4,20.2,9.2,B1,8.5,3.7,2.6,0.25,0.0,0,Left,Not Promoted,1,False
+E0892,HR,HR Executive,5.3,G2,24,6,0.0,20.2,B5,2.3,4.3,4.2,0.87,0.0,0,Stayed,Not Promoted,0,False
+E0893,Customer Support,Support Specialist,7.7,G3,42,4,12.6,14.0,B1,9.0,4.2,3.3,0.27,1.0,0,Stayed,Promoted,0,False
+E0894,Finance,Finance Manager,10.9,G3,46,4,4.8,25.1,B4,8.1,5.0,3.4,0.59,0.0,0,Stayed,Not Promoted,0,False
+E0895,Engineering,Software Engineer,2.5,G3,29,1,10.1,14.7,B4,5.5,4.6,3.9,0.68,0.0,0,Stayed,Not Promoted,0,False
+E0896,Sales,Account Manager,2.4,G3,21,5,13.4,10.1,B4,6.8,2.1,2.5,0.2,0.0,0,Stayed,Not Promoted,0,False
+E0897,Engineering,Data Analyst,8.4,G2,33,7,4.1,13.4,B4,8.2,4.0,3.7,0.6,1.0,0,Stayed,Promoted,0,False
+E0898,Finance,Finance Manager,2.1,G1,43,4,9.5,21.1,B2,5.5,4.0,3.3,0.82,0.0,0,Stayed,Not Promoted,0,False
+E0899,Customer Support,Support Agent,5.1,G3,36,3,3.5,22.6,B4,2.8,3.8,3.4,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0900,Sales,Account Manager,4.9,G2,29,4,1.2,19.3,B3,5.8,1.6,3.7,0.71,1.0,0,Stayed,Promoted,0,False
+E0901,Engineering,Team Lead,5.6,G1,39,5,1.7,11.6,B5,7.4,4.2,2.6,0.75,1.0,0,Stayed,Promoted,0,False
+E0902,Sales,Sales Executive,1.1,G4,21,3,14.1,6.6,B5,13.5,2.8,3.4,0.76,0.0,0,Stayed,Not Promoted,0,False
+E0903,Finance,Accountant,10.4,G2,37,4,0.0,20.1,B3,3.4,3.1,2.5,0.59,1.0,0,Stayed,Promoted,0,False
+E0904,Marketing,Content Specialist,2.1,G4,22,1,16.3,18.1,B2,3.9,2.9,2.9,0.74,1.0,0,Stayed,Promoted,0,False
+E0905,Sales,Sales Executive,6.9,G3,34,9,12.8,22.3,B2,5.7,4.7,3.4,0.38,0.0,0,Stayed,Not Promoted,0,False
+E0906,Operations,Operations Analyst,2.0,G4,30,10,1.6,15.0,B4,5.5,3.3,2.4,0.73,0.0,0,Stayed,Not Promoted,0,False
+E0907,Sales,Sales Manager,8.4,G3,37,5,17.1,14.4,B4,6.6,4.1,2.8,0.91,1.0,1,Stayed,Promoted,0,False
+E0908,HR,HR Executive,6.7,G4,33,1,11.4,18.8,B1,12.1,3.7,2.5,0.49,1.0,0,Stayed,Promoted,0,False
+E0909,Finance,Financial Analyst,1.7,G3,29,6,7.3,14.5,B4,6.2,4.6,3.8,0.71,1.0,0,Stayed,Promoted,0,False
+E0910,Customer Support,Support Lead,0.7,G2,40,6,3.1,4.3,B3,6.5,3.3,4.4,0.66,0.0,0,Stayed,Not Promoted,0,False
+E0911,HR,HR Executive,0.8,G2,34,3,7.7,16.5,B3,8.6,4.2,2.4,0.45,0.0,0,Stayed,Not Promoted,0,False
+E0912,Engineering,Software Engineer,2.1,G2,37,2,15.0,10.3,B2,10.6,4.2,4.1,0.64,0.0,1,Stayed,Not Promoted,0,False
+E0913,Customer Support,Support Specialist,3.0,G2,21,3,0.0,14.3,B3,6.7,4.1,5.0,0.5,0.0,0,Stayed,Not Promoted,0,False
+E0914,Finance,Finance Manager,9.1,G4,39,0,8.5,15.0,B2,6.2,3.4,3.6,0.16,0.0,1,Stayed,Not Promoted,0,False
+E0915,Sales,Account Manager,7.2,G3,31,6,8.5,8.1,B1,9.4,3.5,3.9,0.64,1.0,0,Stayed,Promoted,0,False
+E0916,Engineering,Data Analyst,2.5,G3,26,5,12.8,9.9,B1,5.5,3.6,3.4,0.98,1.0,0,Stayed,Promoted,0,False
+E0917,Customer Support,Support Specialist,0.9,G2,26,4,7.2,7.0,B2,2.6,3.5,3.2,0.92,0.0,1,Stayed,Not Promoted,0,False
+E0918,Engineering,QA Engineer,5.1,G3,34,4,13.4,13.9,B5,5.3,3.8,3.5,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0919,Marketing,Marketing Executive,1.8,G2,26,3,3.9,14.0,B3,10.4,3.4,2.0,0.67,0.0,1,Stayed,Not Promoted,0,False
+E0920,Engineering,Data Analyst,8.4,G1,45,2,12.1,17.6,B2,4.5,4.5,3.8,0.33,1.0,0,Stayed,Promoted,0,False
+E0921,Engineering,Team Lead,3.6,G3,28,3,6.8,7.8,B2,6.0,2.7,3.0,0.71,1.0,0,Left,Promoted,1,False
+E0922,Marketing,Marketing Manager,6.9,G2,35,6,8.2,12.2,B4,1.9,2.8,4.4,0.66,0.0,0,Left,Not Promoted,1,False
+E0923,Engineering,QA Engineer,6.1,G2,29,3,2.8,8.4,B3,6.2,3.4,2.5,0.51,1.0,0,Stayed,Promoted,0,False
+E0924,Customer Support,Support Agent,5.4,G2,35,5,5.7,17.1,B2,11.4,4.5,5.0,0.49,1.0,0,Stayed,Promoted,0,False
+E0925,Engineering,QA Engineer,7.0,G4,28,4,8.2,15.0,B2,8.2,4.2,3.3,0.63,0.0,0,Left,Not Promoted,1,False
+E0926,Engineering,Software Engineer,1.9,G3,39,6,10.4,12.0,B2,9.5,3.6,2.1,0.9,0.0,0,Stayed,Not Promoted,0,False
+E0927,HR,HR Executive,4.4,G1,30,4,20.2,15.6,B1,8.5,3.0,3.9,0.85,0.0,0,Stayed,Not Promoted,0,False
+E0928,Sales,Account Manager,4.7,G4,37,3,28.4,7.1,B2,4.4,3.2,4.6,0.45,1.0,1,Stayed,Promoted,0,True
+E0929,Sales,Account Manager,4.7,G1,27,5,18.8,12.5,B4,8.1,4.0,3.4,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0930,Marketing,Marketing Executive,8.2,G1,38,4,3.9,13.5,B2,10.1,4.0,3.8,0.97,1.0,0,Stayed,Promoted,0,False
+E0931,Customer Support,Support Specialist,2.6,G1,23,5,13.8,21.5,B5,6.7,3.3,3.4,0.8,0.0,0,Left,Not Promoted,1,False
+E0932,Marketing,Content Specialist,2.6,G4,33,7,5.8,14.1,B4,4.6,5.0,4.0,0.75,0.0,0,Stayed,Not Promoted,0,False
+E0933,Sales,Account Manager,3.7,G2,36,10,12.9,12.3,B2,7.3,3.8,2.4,0.47,1.0,1,Stayed,Promoted,0,False
+E0934,Customer Support,Support Lead,1.6,G2,26,0,3.4,16.0,B3,6.0,3.8,4.4,0.41,0.0,0,Stayed,Not Promoted,0,False
+E0935,Customer Support,Support Specialist,13.6,G1,35,3,7.1,10.4,B1,8.1,3.5,3.9,0.58,1.0,0,Stayed,Promoted,0,False
+E0936,Engineering,Data Analyst,7.4,G2,38,5,8.5,15.2,B1,8.2,4.5,3.0,0.79,0.0,0,Stayed,Not Promoted,0,False
+E0937,Operations,Operations Associate,4.4,G2,36,2,95.0,11.6,B3,5.5,3.6,3.1,0.73,0.0,0,Stayed,Not Promoted,0,True
+E0938,Sales,Sales Executive,3.5,G3,35,10,15.8,4.6,B4,7.5,3.5,2.6,0.38,0.0,1,Left,Not Promoted,1,False
+E0939,HR,HR Manager,4.8,G3,28,7,2.9,11.6,B3,10.0,3.9,3.5,0.84,0.0,0,Stayed,Not Promoted,0,False
+E0940,Finance,Accountant,6.6,G3,36,4,6.9,14.0,B4,10.6,4.7,3.4,0.53,1.0,0,Stayed,Promoted,0,False
+E0941,HR,HR Executive,2.2,G2,22,8,19.3,20.9,B1,9.7,4.7,5.0,0.65,0.0,0,Stayed,Not Promoted,0,False
+E0942,Engineering,Team Lead,8.6,G3,38,5,16.1,25.4,B1,7.6,2.9,2.6,0.89,1.0,0,Stayed,Promoted,0,False
+E0943,Customer Support,Support Agent,2.0,G3,30,3,120.0,20.4,B1,8.7,3.6,2.8,0.86,1.0,0,Left,Promoted,1,True
+E0944,Marketing,Marketing Executive,3.7,G2,40,5,0.0,11.6,B2,1.7,2.8,3.9,0.31,0.0,0,Stayed,Not Promoted,0,False
+E0945,Sales,Sales Manager,4.0,G3,34,6,7.4,14.6,B4,3.7,2.7,4.1,0.78,0.0,0,Stayed,Not Promoted,0,False
+E0946,Operations,Operations Associate,3.0,G1,34,5,23.6,25.6,B3,11.2,3.3,2.9,0.76,0.0,1,Stayed,Not Promoted,0,False
+E0947,Operations,Operations Associate,4.6,G1,33,3,11.2,16.2,B3,5.3,2.6,3.5,0.29,0.0,1,Left,Not Promoted,1,False
+E0948,Marketing,Marketing Executive,5.1,G1,28,4,16.1,11.5,B1,6.4,3.1,4.0,0.41,0.0,1,Stayed,Not Promoted,0,False
+E0949,Marketing,Content Specialist,7.1,G2,32,3,5.5,11.1,B3,4.9,2.7,2.9,0.54,0.0,0,Stayed,Not Promoted,0,False
+E0950,Marketing,Marketing Executive,1.8,G2,24,4,0.0,15.4,B2,8.6,3.1,4.8,0.63,0.0,0,Stayed,Not Promoted,0,False
+E0951,Engineering,Data Analyst,2.7,G3,27,1,2.7,6.9,B1,4.0,3.2,3.9,0.09,0.0,0,Stayed,Not Promoted,0,False
+E0952,Marketing,Content Specialist,1.4,G3,25,3,12.9,13.0,B2,8.8,3.6,2.7,0.82,0.0,0,Stayed,Not Promoted,0,False
+E0953,Customer Support,Support Agent,3.8,G1,26,2,11.5,6.4,B3,6.0,5.0,3.3,0.79,1.0,0,Stayed,Promoted,0,False
+E0954,Finance,Finance Manager,2.0,G3,30,3,7.9,13.8,B1,6.4,4.1,1.2,0.74,1.0,0,Stayed,Promoted,0,False
+E0955,Customer Support,Support Agent,4.1,G3,25,0,4.3,16.5,B3,4.1,3.2,3.5,0.45,1.0,1,Stayed,Promoted,0,False
+E0956,Finance,Finance Manager,7.1,G1,42,5,3.4,17.1,B2,10.0,4.0,4.2,0.89,1.0,0,Stayed,Promoted,0,False
+E0957,Engineering,QA Engineer,6.2,G1,26,7,8.8,15.4,B4,7.8,3.9,3.7,0.77,1.0,1,Stayed,Promoted,0,False
+E0958,Engineering,Team Lead,3.5,G4,33,5,8.3,16.6,B3,5.4,3.6,2.5,0.71,0.0,0,Stayed,Not Promoted,0,False
+E0959,HR,HR Executive,0.7,G1,30,4,12.4,13.9,B2,4.3,3.3,2.2,0.53,0.0,0,Stayed,Not Promoted,0,False
+E0960,Marketing,Marketing Manager,2.6,G2,42,6,7.3,12.7,B2,2.5,5.0,3.7,0.58,0.0,0,Stayed,Not Promoted,0,False
+E0961,Finance,Finance Manager,2.1,G4,25,6,0.5,11.1,B5,1.4,4.7,3.1,0.55,0.0,0,Stayed,Not Promoted,0,False
+E0962,Operations,Operations Manager,3.1,G2,35,7,4.5,12.5,B3,8.4,3.4,3.1,0.71,0.0,0,Stayed,Not Promoted,0,False
+E0963,Operations,Operations Analyst,5.1,G4,40,4,18.4,16.3,B4,5.6,3.4,3.7,0.57,0.0,0,Stayed,Not Promoted,0,False
+E0964,HR,Recruiter,5.4,G3,32,6,0.0,12.6,B4,9.7,3.8,3.9,0.83,,0,Stayed,Unknown,0,False
+E0965,Operations,Operations Associate,2.8,G4,29,2,12.3,22.1,B3,6.7,3.4,4.3,0.9,0.0,0,Left,Not Promoted,1,False
+E0966,Operations,Operations Associate,5.9,G1,31,5,2.3,15.8,B3,9.3,3.6,4.3,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0967,Engineering,Data Analyst,0.6,G2,35,6,8.9,10.4,B4,8.3,3.7,4.8,0.88,0.0,1,Stayed,Not Promoted,0,False
+E0968,Customer Support,Support Lead,8.7,G2,29,4,6.3,15.5,B2,7.2,2.7,4.1,0.73,1.0,0,Stayed,Promoted,0,False
+E0969,Operations,Operations Associate,3.9,G3,31,7,10.1,12.1,B2,9.5,4.4,3.1,0.46,0.0,0,Left,Not Promoted,1,False
+E0970,Engineering,QA Engineer,2.3,G3,27,2,4.4,6.7,B2,6.6,3.2,2.7,0.66,0.0,0,Left,Not Promoted,1,False
+E0971,Finance,Finance Manager,4.1,G4,35,5,11.8,18.8,B3,7.8,3.3,2.9,0.48,0.0,0,Stayed,Not Promoted,0,False
+E0972,Operations,Operations Analyst,4.8,G1,32,5,11.9,11.7,B2,4.5,2.8,2.5,0.64,1.0,0,Left,Promoted,1,False
+E0973,Operations,Operations Manager,6.9,G3,33,2,4.9,17.2,B1,6.9,1.9,5.0,0.88,1.0,0,Stayed,Promoted,0,False
+E0974,Engineering,Team Lead,5.9,G1,41,6,12.7,13.1,B2,2.7,3.2,3.4,0.62,1.0,0,Stayed,Promoted,0,False
+E0975,Sales,Sales Manager,2.6,G2,28,8,5.9,7.0,B5,8.7,3.7,3.7,0.52,0.0,0,Left,Not Promoted,1,False
+E0976,Engineering,Software Engineer,2.3,G3,29,2,9.2,16.7,B4,0.0,1.2,4.2,0.43,0.0,0,Stayed,Not Promoted,0,False
+E0977,Operations,Operations Manager,8.8,G4,30,5,14.4,22.2,B3,11.0,3.5,2.1,0.22,1.0,0,Stayed,Promoted,0,False
+E0978,Engineering,QA Engineer,13.7,G3,39,1,20.2,20.0,B4,8.6,2.6,3.6,0.5,1.0,0,Stayed,Promoted,0,False
+E0979,Operations,Operations Analyst,2.7,G2,25,1,9.6,7.5,B1,13.3,3.0,3.4,0.35,0.0,0,Stayed,Not Promoted,0,False
+E0980,Operations,Operations Analyst,4.4,G3,27,0,7.5,16.0,B5,2.9,2.9,4.5,0.3,0.0,1,Stayed,Not Promoted,0,False
+E0981,Sales,Account Manager,2.0,G4,31,3,13.6,10.8,B3,11.7,3.7,4.0,0.22,0.0,0,Stayed,Not Promoted,0,False
+E0982,Sales,Sales Manager,0.8,G2,28,5,0.0,23.0,B1,7.5,3.6,2.8,0.58,0.0,0,Left,Not Promoted,1,False
+E0983,Engineering,QA Engineer,2.5,G1,21,7,6.7,13.3,B2,5.0,4.6,4.0,0.82,0.0,1,Stayed,Not Promoted,0,False
+E0984,Operations,Operations Associate,3.3,G1,33,2,12.6,18.5,B2,11.7,4.0,3.2,0.55,0.0,0,Stayed,Not Promoted,0,False
+E0985,Marketing,Marketing Executive,3.6,G2,24,5,3.5,10.9,B1,4.2,4.1,4.1,0.45,0.0,0,Stayed,Not Promoted,0,False
+E0986,Sales,Sales Manager,2.1,G4,36,2,0.0,15.6,B2,5.3,2.9,3.7,0.81,0.0,0,Stayed,Not Promoted,0,False
+E0987,Engineering,Data Analyst,2.3,G4,34,5,15.5,3.0,B5,1.1,3.6,2.8,0.8,0.0,0,Stayed,Not Promoted,0,False
+E0988,Sales,Sales Manager,3.2,G3,28,4,2.0,8.0,B3,8.2,3.7,2.9,0.97,0.0,0,Stayed,Not Promoted,0,False
+E0989,Marketing,Marketing Manager,3.4,G5,42,4,0.0,11.3,B1,2.1,3.5,4.0,0.56,0.0,0,Stayed,Not Promoted,0,False
+E0990,Sales,Sales Manager,3.5,G1,34,8,4.8,12.8,B3,8.5,3.7,3.7,0.48,1.0,0,Left,Promoted,1,False
+E0991,Engineering,Team Lead,3.1,G3,35,5,8.6,17.3,B1,3.4,4.1,3.7,0.41,1.0,1,Left,Promoted,1,False
+E0992,Engineering,QA Engineer,3.2,G4,23,1,7.9,13.9,B2,10.3,4.2,3.7,0.85,1.0,0,Stayed,Promoted,0,False
+E0993,Operations,Operations Manager,5.5,G5,21,3,1.9,16.7,B3,12.1,3.8,4.4,0.6,0.0,0,Stayed,Not Promoted,0,False
+E0994,Sales,Account Manager,0.9,G3,39,2,5.0,14.1,B1,14.3,3.3,4.1,0.77,0.0,0,Stayed,Not Promoted,0,False
+E0995,Marketing,Marketing Manager,7.1,G2,31,2,9.5,11.2,B1,7.2,4.5,4.2,0.63,1.0,0,Stayed,Promoted,0,False
+E0996,Engineering,Data Analyst,10.6,G3,34,6,17.1,18.6,B1,8.0,3.9,4.5,0.86,0.0,0,Stayed,Not Promoted,0,False
+E0997,Sales,Sales Executive,5.1,G3,24,4,18.2,7.5,B3,8.7,4.2,2.1,0.6,1.0,1,Stayed,Promoted,0,False
+E0998,Customer Support,Support Agent,4.8,G4,25,5,3.8,26.5,B2,9.9,3.5,2.2,0.75,1.0,0,Left,Promoted,1,False
+E0999,Sales,Sales Executive,8.4,G5,31,4,2.3,9.7,B3,8.9,2.9,1.9,0.38,0.0,0,Stayed,Not Promoted,0,False
+E1000,HR,HR Executive,1.4,G3,31,6,6.2,15.8,B2,5.5,2.5,2.7,0.27,,0,Stayed,Unknown,0,False
